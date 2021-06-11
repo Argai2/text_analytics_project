@@ -1,0 +1,3779 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6626f787438342729c155bf7633b3300 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6626f787438342729c155bf7633b3300" ></div>
+        
+</body>
+<script>    
+    
+            var map_6626f787438342729c155bf7633b3300 = L.map(
+                "map_6626f787438342729c155bf7633b3300",
+                {
+                    center: [54.088475516573936, 51.24894755417016],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_874293b6972b46f996d22a0bca8ea2b7 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6626f787438342729c155bf7633b3300);
+        
+    
+            var marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1 = L.markerClusterGroup(
+                {}
+            );
+            map_6626f787438342729c155bf7633b3300.addLayer(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+            var marker_a39f2408230440e98b9eada10ee93cbd = L.marker(
+                [55.729782900000004, 48.72975872828931],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_70300a2a3dc54017a1007ffebcea6ae8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58cb70af2f21472b9bf2c5eb3e8e4bc0 = $(`<div id="html_58cb70af2f21472b9bf2c5eb3e8e4bc0" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_70300a2a3dc54017a1007ffebcea6ae8.setContent(html_58cb70af2f21472b9bf2c5eb3e8e4bc0);
+        
+
+        marker_a39f2408230440e98b9eada10ee93cbd.bindPopup(popup_70300a2a3dc54017a1007ffebcea6ae8)
+        ;
+
+        
+    
+    
+            marker_a39f2408230440e98b9eada10ee93cbd.bindTooltip(
+                `<div>
+                     АО "КОМЗ-Байгыш"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_750633bb8b094a3ea13244fe4b30cd4d = L.marker(
+                [55.15557955, 61.445040756444975],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_709574551f0c4342bd12515d587ccc71 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4dc546a1358e49148cfad33de86c2950 = $(`<div id="html_4dc546a1358e49148cfad33de86c2950" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_709574551f0c4342bd12515d587ccc71.setContent(html_4dc546a1358e49148cfad33de86c2950);
+        
+
+        marker_750633bb8b094a3ea13244fe4b30cd4d.bindPopup(popup_709574551f0c4342bd12515d587ccc71)
+        ;
+
+        
+    
+    
+            marker_750633bb8b094a3ea13244fe4b30cd4d.bindTooltip(
+                `<div>
+                     АО "ЧАМЗ"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_469b915faed74cd9aece7c05f9200139 = L.marker(
+                [59.938732, 30.316229],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_c0a28ccf4c604151993cf41fec694365 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_430f98697f16428f9d0822725b2e1f17 = $(`<div id="html_430f98697f16428f9d0822725b2e1f17" style="width: 100.0%; height: 100.0%;">Вопрос не поднимался</div>`)[0];
+            popup_c0a28ccf4c604151993cf41fec694365.setContent(html_430f98697f16428f9d0822725b2e1f17);
+        
+
+        marker_469b915faed74cd9aece7c05f9200139.bindPopup(popup_c0a28ccf4c604151993cf41fec694365)
+        ;
+
+        
+    
+    
+            marker_469b915faed74cd9aece7c05f9200139.bindTooltip(
+                `<div>
+                     ООО "Сэтл Групп"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ebed6b8300f40f6ba7f45a9934b689a = L.marker(
+                [59.5706273, 30.1305083],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_37249dc5dabb478cade113bed6f8b5d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2236ec0ef0614b71a6484f2d9c858329 = $(`<div id="html_2236ec0ef0614b71a6484f2d9c858329" style="width: 100.0%; height: 100.0%;">Вопрос не поднимался</div>`)[0];
+            popup_37249dc5dabb478cade113bed6f8b5d1.setContent(html_2236ec0ef0614b71a6484f2d9c858329);
+        
+
+        marker_9ebed6b8300f40f6ba7f45a9934b689a.bindPopup(popup_37249dc5dabb478cade113bed6f8b5d1)
+        ;
+
+        
+    
+    
+            marker_9ebed6b8300f40f6ba7f45a9934b689a.bindTooltip(
+                `<div>
+                     ООО «ВИС ФИНАНС»
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_66f70edcc7944d258a83fbe9a178f50c = L.marker(
+                [59.2045559, 39.92659058149516],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_305e7cea91084cfbb8fd6a8b2ce8a551 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dcb262ecbec840ee850e3e6ca0c71087 = $(`<div id="html_dcb262ecbec840ee850e3e6ca0c71087" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_305e7cea91084cfbb8fd6a8b2ce8a551.setContent(html_dcb262ecbec840ee850e3e6ca0c71087);
+        
+
+        marker_66f70edcc7944d258a83fbe9a178f50c.bindPopup(popup_305e7cea91084cfbb8fd6a8b2ce8a551)
+        ;
+
+        
+    
+    
+            marker_66f70edcc7944d258a83fbe9a178f50c.bindTooltip(
+                `<div>
+                     АО "Вологдапорт"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_02766a9e723647b0829b95697593ae4c = L.marker(
+                [51.529140999999996, 46.002505449999994],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_a0f0de3fa3134131a20b63d0c1aa8f84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f9e96c407aa4f7ab9aa8f7d6473a77a = $(`<div id="html_4f9e96c407aa4f7ab9aa8f7d6473a77a" style="width: 100.0%; height: 100.0%;">Принято решение выплатить дивиденды</div>`)[0];
+            popup_a0f0de3fa3134131a20b63d0c1aa8f84.setContent(html_4f9e96c407aa4f7ab9aa8f7d6473a77a);
+        
+
+        marker_02766a9e723647b0829b95697593ae4c.bindPopup(popup_a0f0de3fa3134131a20b63d0c1aa8f84)
+        ;
+
+        
+    
+    
+            marker_02766a9e723647b0829b95697593ae4c.bindTooltip(
+                `<div>
+                     ОАО "Саратовский завод "Серп и молот"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a1e2f8850e01441f8eb51f47fef377fe = L.marker(
+                [43.1147499, 131.89231671063465],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_239c89ba5b0e4b5eacb4be6413e088a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e7a9b201de5432d884708c2c2503a95 = $(`<div id="html_4e7a9b201de5432d884708c2c2503a95" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_239c89ba5b0e4b5eacb4be6413e088a1.setContent(html_4e7a9b201de5432d884708c2c2503a95);
+        
+
+        marker_a1e2f8850e01441f8eb51f47fef377fe.bindPopup(popup_239c89ba5b0e4b5eacb4be6413e088a1)
+        ;
+
+        
+    
+    
+            marker_a1e2f8850e01441f8eb51f47fef377fe.bindTooltip(
+                `<div>
+                     ПАО АКБ "Приморье"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_97898fbcb3724aa6856bbbc204c79fb2 = L.marker(
+                [56.8612468, 35.9120466],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_306f7a4726e841c282faab2418be4743 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa2ff1424af94636a3e50cf1c6cbbe1c = $(`<div id="html_aa2ff1424af94636a3e50cf1c6cbbe1c" style="width: 100.0%; height: 100.0%;">Вопрос не поднимался</div>`)[0];
+            popup_306f7a4726e841c282faab2418be4743.setContent(html_aa2ff1424af94636a3e50cf1c6cbbe1c);
+        
+
+        marker_97898fbcb3724aa6856bbbc204c79fb2.bindPopup(popup_306f7a4726e841c282faab2418be4743)
+        ;
+
+        
+    
+    
+            marker_97898fbcb3724aa6856bbbc204c79fb2.bindTooltip(
+                `<div>
+                     АО "Тойота Банк"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bec771011ebd43c7a2ba53abf8aaaeb5 = L.marker(
+                [55.724528199999995, 84.9280957],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_ad531bbb3dbd49f0aedc3a93b6afc83f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eaf643ae8e43448989cf999eb5b53ebb = $(`<div id="html_eaf643ae8e43448989cf999eb5b53ebb" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_ad531bbb3dbd49f0aedc3a93b6afc83f.setContent(html_eaf643ae8e43448989cf999eb5b53ebb);
+        
+
+        marker_bec771011ebd43c7a2ba53abf8aaaeb5.bindPopup(popup_ad531bbb3dbd49f0aedc3a93b6afc83f)
+        ;
+
+        
+    
+    
+            marker_bec771011ebd43c7a2ba53abf8aaaeb5.bindTooltip(
+                `<div>
+                     ОАО "Юргахлеб"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c73f2b07ade3425f907ae0ce4d04c885 = L.marker(
+                [55.7794604, 37.6700871],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_5dc7e9a3042b4d02b85cd77f21579637 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_427eacea6eba44128ba8a29fe9698b40 = $(`<div id="html_427eacea6eba44128ba8a29fe9698b40" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_5dc7e9a3042b4d02b85cd77f21579637.setContent(html_427eacea6eba44128ba8a29fe9698b40);
+        
+
+        marker_c73f2b07ade3425f907ae0ce4d04c885.bindPopup(popup_5dc7e9a3042b4d02b85cd77f21579637)
+        ;
+
+        
+    
+    
+            marker_c73f2b07ade3425f907ae0ce4d04c885.bindTooltip(
+                `<div>
+                     ПАО "ЦТТМ"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_221ba2d5c7c04364b2b21d890a57f5e4 = L.marker(
+                [52.6328625, 41.8748512],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_e8def639a1584c248360346f502273d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab17474f20c54b129ec1344843bb6058 = $(`<div id="html_ab17474f20c54b129ec1344843bb6058" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_e8def639a1584c248360346f502273d7.setContent(html_ab17474f20c54b129ec1344843bb6058);
+        
+
+        marker_221ba2d5c7c04364b2b21d890a57f5e4.bindPopup(popup_e8def639a1584c248360346f502273d7)
+        ;
+
+        
+    
+    
+            marker_221ba2d5c7c04364b2b21d890a57f5e4.bindTooltip(
+                `<div>
+                     ПАО "Тамбовская энергосбытовая компания"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_191db4c0324f4ad7b303476bd9d71a5f = L.marker(
+                [55.7798168, 38.7068177],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_a362f6e3add84ed4ae5ea00dd1b8288c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2bf98d2f206c47b08a4dce9a18e53440 = $(`<div id="html_2bf98d2f206c47b08a4dce9a18e53440" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_a362f6e3add84ed4ae5ea00dd1b8288c.setContent(html_2bf98d2f206c47b08a4dce9a18e53440);
+        
+
+        marker_191db4c0324f4ad7b303476bd9d71a5f.bindPopup(popup_a362f6e3add84ed4ae5ea00dd1b8288c)
+        ;
+
+        
+    
+    
+            marker_191db4c0324f4ad7b303476bd9d71a5f.bindTooltip(
+                `<div>
+                     ОАО "Павлово-Посадский камвольщик"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae92d40f21594a6fb1c4314b3310a8b1 = L.marker(
+                [55.0176632, 82.94021794602968],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_0af6e583426445f3aa80a6f10788e152 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69dc8e745eee4863b92e03e9c20e2338 = $(`<div id="html_69dc8e745eee4863b92e03e9c20e2338" style="width: 100.0%; height: 100.0%;">Принято решение выплатить дивиденды</div>`)[0];
+            popup_0af6e583426445f3aa80a6f10788e152.setContent(html_69dc8e745eee4863b92e03e9c20e2338);
+        
+
+        marker_ae92d40f21594a6fb1c4314b3310a8b1.bindPopup(popup_0af6e583426445f3aa80a6f10788e152)
+        ;
+
+        
+    
+    
+            marker_ae92d40f21594a6fb1c4314b3310a8b1.bindTooltip(
+                `<div>
+                     Банк «Левобережный» (ПАО)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e8595bfe6d2442208515d74dd56fbceb = L.marker(
+                [61.6662419, 50.833149832362786],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_41bd4bd7e97e4deb9d19c85b66fd83ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e71b8e7c13f04e65a7d3bfe30a778f7b = $(`<div id="html_e71b8e7c13f04e65a7d3bfe30a778f7b" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_41bd4bd7e97e4deb9d19c85b66fd83ce.setContent(html_e71b8e7c13f04e65a7d3bfe30a778f7b);
+        
+
+        marker_e8595bfe6d2442208515d74dd56fbceb.bindPopup(popup_41bd4bd7e97e4deb9d19c85b66fd83ce)
+        ;
+
+        
+    
+    
+            marker_e8595bfe6d2442208515d74dd56fbceb.bindTooltip(
+                `<div>
+                     ОАО "КомиСЗЭМ"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0ad99413c0fc4f70a7efa882f444c91f = L.marker(
+                [48.4787256, 135.0810101],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_3b01e6a038974cbf9b8851f4dc622cd9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d0c71c651b184ea287c42c3f835c057f = $(`<div id="html_d0c71c651b184ea287c42c3f835c057f" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_3b01e6a038974cbf9b8851f4dc622cd9.setContent(html_d0c71c651b184ea287c42c3f835c057f);
+        
+
+        marker_0ad99413c0fc4f70a7efa882f444c91f.bindPopup(popup_3b01e6a038974cbf9b8851f4dc622cd9)
+        ;
+
+        
+    
+    
+            marker_0ad99413c0fc4f70a7efa882f444c91f.bindTooltip(
+                `<div>
+                     ПАО "ННК - Хабаровскнефтепродукт"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3858e7e17a3044f0889d38a4e215f824 = L.marker(
+                [62.1211424, 77.47487696435391],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_f2dca665c5204098bcfed400d6a08c3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94f72d9f964a4ceaa82feb38f39a4d03 = $(`<div id="html_94f72d9f964a4ceaa82feb38f39a4d03" style="width: 100.0%; height: 100.0%;">Вопрос не поднимался</div>`)[0];
+            popup_f2dca665c5204098bcfed400d6a08c3e.setContent(html_94f72d9f964a4ceaa82feb38f39a4d03);
+        
+
+        marker_3858e7e17a3044f0889d38a4e215f824.bindPopup(popup_f2dca665c5204098bcfed400d6a08c3e)
+        ;
+
+        
+    
+    
+            marker_3858e7e17a3044f0889d38a4e215f824.bindTooltip(
+                `<div>
+                     ПАО "Варьеганнефтегаз"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_60525e0b0af8496f9a5172566b469676 = L.marker(
+                [57.6263358, 39.8914894],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_47e0812392524af29c84021e0c8df449 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca4f6d3883a24e0289c1e480afa6bc6c = $(`<div id="html_ca4f6d3883a24e0289c1e480afa6bc6c" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_47e0812392524af29c84021e0c8df449.setContent(html_ca4f6d3883a24e0289c1e480afa6bc6c);
+        
+
+        marker_60525e0b0af8496f9a5172566b469676.bindPopup(popup_47e0812392524af29c84021e0c8df449)
+        ;
+
+        
+    
+    
+            marker_60525e0b0af8496f9a5172566b469676.bindTooltip(
+                `<div>
+                     ОАО "Яхонт"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28b8a28311544e009ae41edae3b43010 = L.marker(
+                [59.938732, 30.316229],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_cd7a068dd72145b6b134df099c8a41c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb3ed1f9403542148f80c498bb210228 = $(`<div id="html_bb3ed1f9403542148f80c498bb210228" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_cd7a068dd72145b6b134df099c8a41c3.setContent(html_bb3ed1f9403542148f80c498bb210228);
+        
+
+        marker_28b8a28311544e009ae41edae3b43010.bindPopup(popup_cd7a068dd72145b6b134df099c8a41c3)
+        ;
+
+        
+    
+    
+            marker_28b8a28311544e009ae41edae3b43010.bindTooltip(
+                `<div>
+                     ПАО "СФ "АЛМАЗ"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_099682a2ef8444f78971e00257456a70 = L.marker(
+                [55.7504461, 37.6174943],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_fe1984a062e1482abccd61a94ccd5ee6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a52bac74cdd46c6a06c5fea36f5c4a4 = $(`<div id="html_5a52bac74cdd46c6a06c5fea36f5c4a4" style="width: 100.0%; height: 100.0%;">Вопрос не поднимался</div>`)[0];
+            popup_fe1984a062e1482abccd61a94ccd5ee6.setContent(html_5a52bac74cdd46c6a06c5fea36f5c4a4);
+        
+
+        marker_099682a2ef8444f78971e00257456a70.bindPopup(popup_fe1984a062e1482abccd61a94ccd5ee6)
+        ;
+
+        
+    
+    
+            marker_099682a2ef8444f78971e00257456a70.bindTooltip(
+                `<div>
+                     ПАО «НГК «Славнефть»
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1719e1c9bc2c40418c344147731cef6d = L.marker(
+                [54.98217445, 57.68814978237853],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_0d33bc3b203444faa054b7b14c232ee6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3316892414446e2a5632f58afc229c4 = $(`<div id="html_c3316892414446e2a5632f58afc229c4" style="width: 100.0%; height: 100.0%;">Принято решение выплатить дивиденды</div>`)[0];
+            popup_0d33bc3b203444faa054b7b14c232ee6.setContent(html_c3316892414446e2a5632f58afc229c4);
+        
+
+        marker_1719e1c9bc2c40418c344147731cef6d.bindPopup(popup_0d33bc3b203444faa054b7b14c232ee6)
+        ;
+
+        
+    
+    
+            marker_1719e1c9bc2c40418c344147731cef6d.bindTooltip(
+                `<div>
+                     ПАО "Агрегат"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_358e3ee56aad4bcdbe2978a49e6d3428 = L.marker(
+                [51.3835625, 58.9853905],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_aacc737c97d24c7cad23770e1207f4bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00ed1d5df63841af97dde4714462a96d = $(`<div id="html_00ed1d5df63841af97dde4714462a96d" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_aacc737c97d24c7cad23770e1207f4bb.setContent(html_00ed1d5df63841af97dde4714462a96d);
+        
+
+        marker_358e3ee56aad4bcdbe2978a49e6d3428.bindPopup(popup_aacc737c97d24c7cad23770e1207f4bb)
+        ;
+
+        
+    
+    
+            marker_358e3ee56aad4bcdbe2978a49e6d3428.bindTooltip(
+                `<div>
+                     АО "НОЭМЗ"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_43e08d762b1f4ef797ff3c49d31c5c05 = L.marker(
+                [50.5187947, 36.7464417],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_42657a8eb926410cb95157260966c4b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2234a04db3144c5ca36a6f25f9024bd5 = $(`<div id="html_2234a04db3144c5ca36a6f25f9024bd5" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_42657a8eb926410cb95157260966c4b0.setContent(html_2234a04db3144c5ca36a6f25f9024bd5);
+        
+
+        marker_43e08d762b1f4ef797ff3c49d31c5c05.bindPopup(popup_42657a8eb926410cb95157260966c4b0)
+        ;
+
+        
+    
+    
+            marker_43e08d762b1f4ef797ff3c49d31c5c05.bindTooltip(
+                `<div>
+                     ОАО "Колос"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_272502e03e354b3db98bfd97d95e0f35 = L.marker(
+                [53.5968223, 87.3445936],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_4e8b4b8d1cee472aa2a03bce9deae94d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53362b4e5dfd4d27856c468c303679d4 = $(`<div id="html_53362b4e5dfd4d27856c468c303679d4" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_4e8b4b8d1cee472aa2a03bce9deae94d.setContent(html_53362b4e5dfd4d27856c468c303679d4);
+        
+
+        marker_272502e03e354b3db98bfd97d95e0f35.bindPopup(popup_4e8b4b8d1cee472aa2a03bce9deae94d)
+        ;
+
+        
+    
+    
+            marker_272502e03e354b3db98bfd97d95e0f35.bindTooltip(
+                `<div>
+                     ПАО "Осинникихлеб"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b434cd25bd14c1186551b4ccebd3d9e = L.marker(
+                [58.5995238, 49.66861127238219],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_59457bad42d54f82b6a1ac7dacdb1754 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_976ac281339a4ad9a634b845e45537d0 = $(`<div id="html_976ac281339a4ad9a634b845e45537d0" style="width: 100.0%; height: 100.0%;">Вопрос не поднимался</div>`)[0];
+            popup_59457bad42d54f82b6a1ac7dacdb1754.setContent(html_976ac281339a4ad9a634b845e45537d0);
+        
+
+        marker_6b434cd25bd14c1186551b4ccebd3d9e.bindPopup(popup_59457bad42d54f82b6a1ac7dacdb1754)
+        ;
+
+        
+    
+    
+            marker_6b434cd25bd14c1186551b4ccebd3d9e.bindTooltip(
+                `<div>
+                     АО "ККК"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_024be3eb8bcf43da9f863d2807057762 = L.marker(
+                [58.6124279, 82.0475315],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_325dcb089f744836bdaa5bad4ce6f331 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b820a47713b14f249ff6b9ab77f8c3e2 = $(`<div id="html_b820a47713b14f249ff6b9ab77f8c3e2" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_325dcb089f744836bdaa5bad4ce6f331.setContent(html_b820a47713b14f249ff6b9ab77f8c3e2);
+        
+
+        marker_024be3eb8bcf43da9f863d2807057762.bindPopup(popup_325dcb089f744836bdaa5bad4ce6f331)
+        ;
+
+        
+    
+    
+            marker_024be3eb8bcf43da9f863d2807057762.bindTooltip(
+                `<div>
+                     ПАО "ТРК"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_88c48e11a3a444058e5cf7e697906fa9 = L.marker(
+                [56.646242, 47.8892414],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_876f5c6da6924fc590c26bed394697f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_796a659a9204454882b0825f4ab5d8ae = $(`<div id="html_796a659a9204454882b0825f4ab5d8ae" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_876f5c6da6924fc590c26bed394697f4.setContent(html_796a659a9204454882b0825f4ab5d8ae);
+        
+
+        marker_88c48e11a3a444058e5cf7e697906fa9.bindPopup(popup_876f5c6da6924fc590c26bed394697f4)
+        ;
+
+        
+    
+    
+            marker_88c48e11a3a444058e5cf7e697906fa9.bindTooltip(
+                `<div>
+                     АО "Марспецмонтаж"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_15dc3e02834f48e690d516ea198bf5ab = L.marker(
+                [54.4598643, 61.2792137],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_d3345c365cee4eae8092a2d63b1c6ef9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb80a2df737d4b0f99fdff6aac65ae7b = $(`<div id="html_fb80a2df737d4b0f99fdff6aac65ae7b" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_d3345c365cee4eae8092a2d63b1c6ef9.setContent(html_fb80a2df737d4b0f99fdff6aac65ae7b);
+        
+
+        marker_15dc3e02834f48e690d516ea198bf5ab.bindPopup(popup_d3345c365cee4eae8092a2d63b1c6ef9)
+        ;
+
+        
+    
+    
+            marker_15dc3e02834f48e690d516ea198bf5ab.bindTooltip(
+                `<div>
+                     ОАО «ЮЗРК»
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3f4687222fb941f09005c9e1d0290a87 = L.marker(
+                [60.1020831, 30.2561743],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_ad80bf8a033c46618da8192f3a144a2b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cac096cb60e9435fb8ffe3bbb6719520 = $(`<div id="html_cac096cb60e9435fb8ffe3bbb6719520" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_ad80bf8a033c46618da8192f3a144a2b.setContent(html_cac096cb60e9435fb8ffe3bbb6719520);
+        
+
+        marker_3f4687222fb941f09005c9e1d0290a87.bindPopup(popup_ad80bf8a033c46618da8192f3a144a2b)
+        ;
+
+        
+    
+    
+            marker_3f4687222fb941f09005c9e1d0290a87.bindTooltip(
+                `<div>
+                     ОАО "ЛО Фармация"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a2d48fd74c5448f2ba6dbdb1db4caca7 = L.marker(
+                [51.53952715, 46.03338615081432],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_2c2d1e9f302e4b9eaa0461e45930ee6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d88c231c971478aa52db1c6e7f11e7c = $(`<div id="html_8d88c231c971478aa52db1c6e7f11e7c" style="width: 100.0%; height: 100.0%;">Вопрос не поднимался</div>`)[0];
+            popup_2c2d1e9f302e4b9eaa0461e45930ee6c.setContent(html_8d88c231c971478aa52db1c6e7f11e7c);
+        
+
+        marker_a2d48fd74c5448f2ba6dbdb1db4caca7.bindPopup(popup_2c2d1e9f302e4b9eaa0461e45930ee6c)
+        ;
+
+        
+    
+    
+            marker_a2d48fd74c5448f2ba6dbdb1db4caca7.bindTooltip(
+                `<div>
+                     ООО "КВС"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_23c4c2bf89fd47f7bf18e1272eb7aa50 = L.marker(
+                [42.96715845, 47.51289925880414],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_ad4eeb7a5da144f4b452ee05a0516f49 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2bb716207324f7c90247eba719143dc = $(`<div id="html_a2bb716207324f7c90247eba719143dc" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_ad4eeb7a5da144f4b452ee05a0516f49.setContent(html_a2bb716207324f7c90247eba719143dc);
+        
+
+        marker_23c4c2bf89fd47f7bf18e1272eb7aa50.bindPopup(popup_ad4eeb7a5da144f4b452ee05a0516f49)
+        ;
+
+        
+    
+    
+            marker_23c4c2bf89fd47f7bf18e1272eb7aa50.bindTooltip(
+                `<div>
+                     АО "Завод им. Гаджиева"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fb20c2f9337542f185c38a8ac3d482f0 = L.marker(
+                [44.5609447, 38.0766832],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_2fffe00e832d4d03b5b40fc5da864b1b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_468e9385caeb4306960af3601eab238b = $(`<div id="html_468e9385caeb4306960af3601eab238b" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_2fffe00e832d4d03b5b40fc5da864b1b.setContent(html_468e9385caeb4306960af3601eab238b);
+        
+
+        marker_fb20c2f9337542f185c38a8ac3d482f0.bindPopup(popup_2fffe00e832d4d03b5b40fc5da864b1b)
+        ;
+
+        
+    
+    
+            marker_fb20c2f9337542f185c38a8ac3d482f0.bindTooltip(
+                `<div>
+                     АО "Базовый санаторий им. М.В. Ломоносова"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bb59cf934467403ab4dee61361a9f929 = L.marker(
+                [44.6896019, 33.7038236],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_20c8f92d5664450e8b6cf6778bfd87cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c676a61d6294a4fb09975ad1d38d523 = $(`<div id="html_6c676a61d6294a4fb09975ad1d38d523" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_20c8f92d5664450e8b6cf6778bfd87cb.setContent(html_6c676a61d6294a4fb09975ad1d38d523);
+        
+
+        marker_bb59cf934467403ab4dee61361a9f929.bindPopup(popup_20c8f92d5664450e8b6cf6778bfd87cb)
+        ;
+
+        
+    
+    
+            marker_bb59cf934467403ab4dee61361a9f929.bindTooltip(
+                `<div>
+                     ПАО "СЕВАСТОПОЛЬСКОЕ АВТОТРАНСПОРТНОЕ ПРЕДПРИЯТИЕ 14369"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_399897132d314d5ab68e5d50c6782723 = L.marker(
+                [59.938732, 30.316229],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_c47d1e1a0c0244848ab60f2e90489463 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6fb7a3ecf58a49c79d60aea0aab8719e = $(`<div id="html_6fb7a3ecf58a49c79d60aea0aab8719e" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_c47d1e1a0c0244848ab60f2e90489463.setContent(html_6fb7a3ecf58a49c79d60aea0aab8719e);
+        
+
+        marker_399897132d314d5ab68e5d50c6782723.bindPopup(popup_c47d1e1a0c0244848ab60f2e90489463)
+        ;
+
+        
+    
+    
+            marker_399897132d314d5ab68e5d50c6782723.bindTooltip(
+                `<div>
+                     АО "ЛОМО"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_387315fca5c34be0aa9f45221ec4e8b3 = L.marker(
+                [43.911057, 39.33974672545969],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_33356f7192f54d3394f4ca4a142472ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb6518939c124be2a4950d593e3aad47 = $(`<div id="html_eb6518939c124be2a4950d593e3aad47" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_33356f7192f54d3394f4ca4a142472ab.setContent(html_eb6518939c124be2a4950d593e3aad47);
+        
+
+        marker_387315fca5c34be0aa9f45221ec4e8b3.bindPopup(popup_33356f7192f54d3394f4ca4a142472ab)
+        ;
+
+        
+    
+    
+            marker_387315fca5c34be0aa9f45221ec4e8b3.bindTooltip(
+                `<div>
+                     АО «СГЭМ»
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8d952c5dc7b841aa9ce1a82175f40bc4 = L.marker(
+                [51.8405964, 40.828345],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_8e3128bbfecf47efa89671961ca1d070 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1d3737ca51b47b980a40a7e0607542f = $(`<div id="html_b1d3737ca51b47b980a40a7e0607542f" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_8e3128bbfecf47efa89671961ca1d070.setContent(html_b1d3737ca51b47b980a40a7e0607542f);
+        
+
+        marker_8d952c5dc7b841aa9ce1a82175f40bc4.bindPopup(popup_8e3128bbfecf47efa89671961ca1d070)
+        ;
+
+        
+    
+    
+            marker_8d952c5dc7b841aa9ce1a82175f40bc4.bindTooltip(
+                `<div>
+                     ОАО «ЭОМЗ»
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_321b933888f74b1a830ebfd9a84fb8e8 = L.marker(
+                [56.3530706, 43.796056],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_1f439b6d71bb451c91412998b034c86d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79d4cce3ff3e41eb8d70ff8768c7521d = $(`<div id="html_79d4cce3ff3e41eb8d70ff8768c7521d" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_1f439b6d71bb451c91412998b034c86d.setContent(html_79d4cce3ff3e41eb8d70ff8768c7521d);
+        
+
+        marker_321b933888f74b1a830ebfd9a84fb8e8.bindPopup(popup_1f439b6d71bb451c91412998b034c86d)
+        ;
+
+        
+    
+    
+            marker_321b933888f74b1a830ebfd9a84fb8e8.bindTooltip(
+                `<div>
+                     АО "СВЕТЛОЯР"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_06ebbc976cf14578a5ee6e614eb7323f = L.marker(
+                [43.911057, 39.33974672545969],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_8146015b2b8e4a759c8b9ffc0a3c7f2e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7918dd91096e4cdf91dd220ceae21ad2 = $(`<div id="html_7918dd91096e4cdf91dd220ceae21ad2" style="width: 100.0%; height: 100.0%;">Вопрос не поднимался</div>`)[0];
+            popup_8146015b2b8e4a759c8b9ffc0a3c7f2e.setContent(html_7918dd91096e4cdf91dd220ceae21ad2);
+        
+
+        marker_06ebbc976cf14578a5ee6e614eb7323f.bindPopup(popup_8146015b2b8e4a759c8b9ffc0a3c7f2e)
+        ;
+
+        
+    
+    
+            marker_06ebbc976cf14578a5ee6e614eb7323f.bindTooltip(
+                `<div>
+                     ПАО "ГИТ"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_37dd15253c7047599d746d7b031c0a12 = L.marker(
+                [54.6909881, 55.8122612],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_cf571211d8f94866873b78c92f6c9be4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3485f782721d45ce989a59d0062fd782 = $(`<div id="html_3485f782721d45ce989a59d0062fd782" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_cf571211d8f94866873b78c92f6c9be4.setContent(html_3485f782721d45ce989a59d0062fd782);
+        
+
+        marker_37dd15253c7047599d746d7b031c0a12.bindPopup(popup_cf571211d8f94866873b78c92f6c9be4)
+        ;
+
+        
+    
+    
+            marker_37dd15253c7047599d746d7b031c0a12.bindTooltip(
+                `<div>
+                     ОАО "Уфастроймех"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b3a37529f10f48a0aedacbf1bb089911 = L.marker(
+                [56.084596950000005, 63.60268920597085],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_3e6736392f794fccaeed46b434036611 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0a95946d2d94c37a077c19d0424ab7c = $(`<div id="html_e0a95946d2d94c37a077c19d0424ab7c" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_3e6736392f794fccaeed46b434036611.setContent(html_e0a95946d2d94c37a077c19d0424ab7c);
+        
+
+        marker_b3a37529f10f48a0aedacbf1bb089911.bindPopup(popup_3e6736392f794fccaeed46b434036611)
+        ;
+
+        
+    
+    
+            marker_b3a37529f10f48a0aedacbf1bb089911.bindTooltip(
+                `<div>
+                     АО "ШААЗ"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9af849de56964367895e7624754649cd = L.marker(
+                [52.0697969, 39.7239346],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_9feadcc552a340b5bc168b38e6bba17a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62df2694b73644e1bb73476c2ba652a1 = $(`<div id="html_62df2694b73644e1bb73476c2ba652a1" style="width: 100.0%; height: 100.0%;">Вопрос не поднимался</div>`)[0];
+            popup_9feadcc552a340b5bc168b38e6bba17a.setContent(html_62df2694b73644e1bb73476c2ba652a1);
+        
+
+        marker_9af849de56964367895e7624754649cd.bindPopup(popup_9feadcc552a340b5bc168b38e6bba17a)
+        ;
+
+        
+    
+    
+            marker_9af849de56964367895e7624754649cd.bindTooltip(
+                `<div>
+                     АО "Автоколонна № 2068"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ed74c064c38b4a20bcb7bbcecd9d3197 = L.marker(
+                [44.7239578, 37.7690711],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_c712738104fa4769b9e34d4ca686814c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f8a888809714013b82f78f3f049980f = $(`<div id="html_6f8a888809714013b82f78f3f049980f" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_c712738104fa4769b9e34d4ca686814c.setContent(html_6f8a888809714013b82f78f3f049980f);
+        
+
+        marker_ed74c064c38b4a20bcb7bbcecd9d3197.bindPopup(popup_c712738104fa4769b9e34d4ca686814c)
+        ;
+
+        
+    
+    
+            marker_ed74c064c38b4a20bcb7bbcecd9d3197.bindTooltip(
+                `<div>
+                     ПАО "Новоросс-Инвест"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0d2720c3040243aebd6b638442610e41 = L.marker(
+                [54.1930321, 37.61754],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_2a567fea78494a25948be1f4d082b041 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15fa2efb5ac24138b5f0761747d7a745 = $(`<div id="html_15fa2efb5ac24138b5f0761747d7a745" style="width: 100.0%; height: 100.0%;">Принято решение выплатить дивиденды</div>`)[0];
+            popup_2a567fea78494a25948be1f4d082b041.setContent(html_15fa2efb5ac24138b5f0761747d7a745);
+        
+
+        marker_0d2720c3040243aebd6b638442610e41.bindPopup(popup_2a567fea78494a25948be1f4d082b041)
+        ;
+
+        
+    
+    
+            marker_0d2720c3040243aebd6b638442610e41.bindTooltip(
+                `<div>
+                     АО «Тулаточмаш»
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0318daa0ef9249c7994b42f4bff4068a = L.marker(
+                [55.7504461, 37.6174943],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_30b33283de9c4614820d0dfb0f4c7ce7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a402fd1ae71b480699edd870e4461521 = $(`<div id="html_a402fd1ae71b480699edd870e4461521" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_30b33283de9c4614820d0dfb0f4c7ce7.setContent(html_a402fd1ae71b480699edd870e4461521);
+        
+
+        marker_0318daa0ef9249c7994b42f4bff4068a.bindPopup(popup_30b33283de9c4614820d0dfb0f4c7ce7)
+        ;
+
+        
+    
+    
+            marker_0318daa0ef9249c7994b42f4bff4068a.bindTooltip(
+                `<div>
+                     ПАО "ГИПРОСВЯЗЬ"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_972aaa5a1fb344d9904a0a896377a251 = L.marker(
+                [43.043364249999996, 44.68509673129924],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_fad6d25fa2824ec7b8c339748b8680bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72f253d73318401d8b8187c3456a486a = $(`<div id="html_72f253d73318401d8b8187c3456a486a" style="width: 100.0%; height: 100.0%;">Принято решение выплатить дивиденды</div>`)[0];
+            popup_fad6d25fa2824ec7b8c339748b8680bd.setContent(html_72f253d73318401d8b8187c3456a486a);
+        
+
+        marker_972aaa5a1fb344d9904a0a896377a251.bindPopup(popup_fad6d25fa2824ec7b8c339748b8680bd)
+        ;
+
+        
+    
+    
+            marker_972aaa5a1fb344d9904a0a896377a251.bindTooltip(
+                `<div>
+                     АО "Победит"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0ae42e7499aa43668de5f29502ffca6c = L.marker(
+                [55.8024357, 38.9628091],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_d23b17e499084a19b58d03f69b9beb87 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44fcc214f79947f0b7c88dc3df03f8e3 = $(`<div id="html_44fcc214f79947f0b7c88dc3df03f8e3" style="width: 100.0%; height: 100.0%;">Принято решение выплатить дивиденды</div>`)[0];
+            popup_d23b17e499084a19b58d03f69b9beb87.setContent(html_44fcc214f79947f0b7c88dc3df03f8e3);
+        
+
+        marker_0ae42e7499aa43668de5f29502ffca6c.bindPopup(popup_d23b17e499084a19b58d03f69b9beb87)
+        ;
+
+        
+    
+    
+            marker_0ae42e7499aa43668de5f29502ffca6c.bindTooltip(
+                `<div>
+                     АО "КАМПО"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f2cd5bf6dc284737bb0b460e21e4432f = L.marker(
+                [56.8612468, 35.9120466],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_70cecece9f404ef599e51d712031e889 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d220952f1834ae7b549268e99573811 = $(`<div id="html_9d220952f1834ae7b549268e99573811" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_70cecece9f404ef599e51d712031e889.setContent(html_9d220952f1834ae7b549268e99573811);
+        
+
+        marker_f2cd5bf6dc284737bb0b460e21e4432f.bindPopup(popup_70cecece9f404ef599e51d712031e889)
+        ;
+
+        
+    
+    
+            marker_f2cd5bf6dc284737bb0b460e21e4432f.bindTooltip(
+                `<div>
+                     АО «Лидер-Инвест»
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c0c1a4e0485435991bf0ba0b279d05d = L.marker(
+                [55.7322094, 37.70998945833515],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_9c457dbc2dcc484a868ef9701583377b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9de86f6fcc84038b19aad36e580cd1f = $(`<div id="html_d9de86f6fcc84038b19aad36e580cd1f" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_9c457dbc2dcc484a868ef9701583377b.setContent(html_d9de86f6fcc84038b19aad36e580cd1f);
+        
+
+        marker_7c0c1a4e0485435991bf0ba0b279d05d.bindPopup(popup_9c457dbc2dcc484a868ef9701583377b)
+        ;
+
+        
+    
+    
+            marker_7c0c1a4e0485435991bf0ba0b279d05d.bindTooltip(
+                `<div>
+                     ОАО "Завод ЖБИ-6"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3ae5c7c8aea543dc9597222df6d9ef2b = L.marker(
+                [44.7239578, 37.7690711],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_a25f87ee71b54f53ac699e284df1522a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2960370c8bd046878d45b8108fdd433f = $(`<div id="html_2960370c8bd046878d45b8108fdd433f" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_a25f87ee71b54f53ac699e284df1522a.setContent(html_2960370c8bd046878d45b8108fdd433f);
+        
+
+        marker_3ae5c7c8aea543dc9597222df6d9ef2b.bindPopup(popup_a25f87ee71b54f53ac699e284df1522a)
+        ;
+
+        
+    
+    
+            marker_3ae5c7c8aea543dc9597222df6d9ef2b.bindTooltip(
+                `<div>
+                     ПАО "ПИНО"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5c5582ab60f648d19b473a1d52a9246d = L.marker(
+                [48.364526850000004, 135.08893221885285],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_fea6d14e0ad840b9bf2880fc259252d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d466db74ccb4e4092e19ef0b7237a1d = $(`<div id="html_7d466db74ccb4e4092e19ef0b7237a1d" style="width: 100.0%; height: 100.0%;">Вопрос не поднимался</div>`)[0];
+            popup_fea6d14e0ad840b9bf2880fc259252d8.setContent(html_7d466db74ccb4e4092e19ef0b7237a1d);
+        
+
+        marker_5c5582ab60f648d19b473a1d52a9246d.bindPopup(popup_fea6d14e0ad840b9bf2880fc259252d8)
+        ;
+
+        
+    
+    
+            marker_5c5582ab60f648d19b473a1d52a9246d.bindTooltip(
+                `<div>
+                     ОАО "Дальхимфарм"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_770e3af7e9034edc88d2c9cf0267ac69 = L.marker(
+                [57.7546975, 40.970124850000005],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_8ac196b8e47348009b90215fb1862127 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_704103a4b7444acf83c9cbf655a448b2 = $(`<div id="html_704103a4b7444acf83c9cbf655a448b2" style="width: 100.0%; height: 100.0%;">Принято решение выплатить дивиденды</div>`)[0];
+            popup_8ac196b8e47348009b90215fb1862127.setContent(html_704103a4b7444acf83c9cbf655a448b2);
+        
+
+        marker_770e3af7e9034edc88d2c9cf0267ac69.bindPopup(popup_8ac196b8e47348009b90215fb1862127)
+        ;
+
+        
+    
+    
+            marker_770e3af7e9034edc88d2c9cf0267ac69.bindTooltip(
+                `<div>
+                     ОАО КГТС
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2799d9bb55cc48c3951cf8ccb0479bee = L.marker(
+                [43.1301565, 131.8904413],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_c68757c387654f75b6581b60649cd583 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_40124bcdebc54cdaaff40e44f3e71a52 = $(`<div id="html_40124bcdebc54cdaaff40e44f3e71a52" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_c68757c387654f75b6581b60649cd583.setContent(html_40124bcdebc54cdaaff40e44f3e71a52);
+        
+
+        marker_2799d9bb55cc48c3951cf8ccb0479bee.bindPopup(popup_c68757c387654f75b6581b60649cd583)
+        ;
+
+        
+    
+    
+            marker_2799d9bb55cc48c3951cf8ccb0479bee.bindTooltip(
+                `<div>
+                     ПАО "Приморавтотранс"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a336f8d40334561a3aa7db3d41cdcbd = L.marker(
+                [45.35058705, 40.67180972621922],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_f759f4e4ffaf42ed99a2e674cb1278e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f378a7bcce7646b3adc86dba98295bbf = $(`<div id="html_f378a7bcce7646b3adc86dba98295bbf" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_f759f4e4ffaf42ed99a2e674cb1278e0.setContent(html_f378a7bcce7646b3adc86dba98295bbf);
+        
+
+        marker_1a336f8d40334561a3aa7db3d41cdcbd.bindPopup(popup_f759f4e4ffaf42ed99a2e674cb1278e0)
+        ;
+
+        
+    
+    
+            marker_1a336f8d40334561a3aa7db3d41cdcbd.bindTooltip(
+                `<div>
+                     ЗАО "Племзавод Гулькевичский"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2130c89ee4b148f090b4e7bc770d8e2d = L.marker(
+                [53.6546644, 47.1006517],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_a3544bd3d46c4cdc9e66455b5518bf04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d5d9f6c52be4df0babd9fed06ce75e0 = $(`<div id="html_7d5d9f6c52be4df0babd9fed06ce75e0" style="width: 100.0%; height: 100.0%;">Принято решение выплатить дивиденды</div>`)[0];
+            popup_a3544bd3d46c4cdc9e66455b5518bf04.setContent(html_7d5d9f6c52be4df0babd9fed06ce75e0);
+        
+
+        marker_2130c89ee4b148f090b4e7bc770d8e2d.bindPopup(popup_a3544bd3d46c4cdc9e66455b5518bf04)
+        ;
+
+        
+    
+    
+            marker_2130c89ee4b148f090b4e7bc770d8e2d.bindTooltip(
+                `<div>
+                     АО "РЕДУКТОР"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3cdb80b35f534f51ad0dff027db347e7 = L.marker(
+                [55.1263825, 61.3659999],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_194aa2b42be34c8a9742c23b844d7287 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e378fc347b8a46b58f8d5432b69ccfd8 = $(`<div id="html_e378fc347b8a46b58f8d5432b69ccfd8" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_194aa2b42be34c8a9742c23b844d7287.setContent(html_e378fc347b8a46b58f8d5432b69ccfd8);
+        
+
+        marker_3cdb80b35f534f51ad0dff027db347e7.bindPopup(popup_194aa2b42be34c8a9742c23b844d7287)
+        ;
+
+        
+    
+    
+            marker_3cdb80b35f534f51ad0dff027db347e7.bindTooltip(
+                `<div>
+                     ОАО «Южуралкондитер»
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a917a55f557b4cf89fb67a25859b3c46 = L.marker(
+                [55.0540829, 73.2660273],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_6c68a9bcf31248ecad169e9a9a2c7787 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d235f3d2fc7043fa90bfe18562aa5d2b = $(`<div id="html_d235f3d2fc7043fa90bfe18562aa5d2b" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_6c68a9bcf31248ecad169e9a9a2c7787.setContent(html_d235f3d2fc7043fa90bfe18562aa5d2b);
+        
+
+        marker_a917a55f557b4cf89fb67a25859b3c46.bindPopup(popup_6c68a9bcf31248ecad169e9a9a2c7787)
+        ;
+
+        
+    
+    
+            marker_a917a55f557b4cf89fb67a25859b3c46.bindTooltip(
+                `<div>
+                     АО "Омэлектромонтаж"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a51f8ed5be314c749d701d18553255b9 = L.marker(
+                [46.28991755, 47.97409942883192],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_f890e6bed27d444780b8dc103778b4d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eab73d3c083d4e348b42c6b3380630c9 = $(`<div id="html_eab73d3c083d4e348b42c6b3380630c9" style="width: 100.0%; height: 100.0%;">Принято решение выплатить дивиденды</div>`)[0];
+            popup_f890e6bed27d444780b8dc103778b4d1.setContent(html_eab73d3c083d4e348b42c6b3380630c9);
+        
+
+        marker_a51f8ed5be314c749d701d18553255b9.bindPopup(popup_f890e6bed27d444780b8dc103778b4d1)
+        ;
+
+        
+    
+    
+            marker_a51f8ed5be314c749d701d18553255b9.bindTooltip(
+                `<div>
+                     ОАО «КРХФ»
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d833f6b941a44f2b844745c65162554c = L.marker(
+                [55.7504461, 37.6174943],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_981f3ed8fb42489886fc1eda997af870 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d7bcf095c604718b7196d465dc0c9c4 = $(`<div id="html_3d7bcf095c604718b7196d465dc0c9c4" style="width: 100.0%; height: 100.0%;">Вопрос не поднимался</div>`)[0];
+            popup_981f3ed8fb42489886fc1eda997af870.setContent(html_3d7bcf095c604718b7196d465dc0c9c4);
+        
+
+        marker_d833f6b941a44f2b844745c65162554c.bindPopup(popup_981f3ed8fb42489886fc1eda997af870)
+        ;
+
+        
+    
+    
+            marker_d833f6b941a44f2b844745c65162554c.bindTooltip(
+                `<div>
+                     ПАО «ГК «Самолет»
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b975091d504f460597ab3cfa444ab4d5 = L.marker(
+                [59.938732, 30.316229],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_6eb32e69c68344b9a3c8ee8911bd6305 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c664972aad4045fead0723c85e9888b6 = $(`<div id="html_c664972aad4045fead0723c85e9888b6" style="width: 100.0%; height: 100.0%;">Вопрос не поднимался</div>`)[0];
+            popup_6eb32e69c68344b9a3c8ee8911bd6305.setContent(html_c664972aad4045fead0723c85e9888b6);
+        
+
+        marker_b975091d504f460597ab3cfa444ab4d5.bindPopup(popup_6eb32e69c68344b9a3c8ee8911bd6305)
+        ;
+
+        
+    
+    
+            marker_b975091d504f460597ab3cfa444ab4d5.bindTooltip(
+                `<div>
+                     ООО "Сэтл Групп"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a1b8ec51a1b24989a73752ccfa46c437 = L.marker(
+                [55.7504461, 37.6174943],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_2b4bd351f5634cdc9caec4d88b576f8b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d82eaff45bd440b8f46bc8d4068b614 = $(`<div id="html_0d82eaff45bd440b8f46bc8d4068b614" style="width: 100.0%; height: 100.0%;">Вопрос не поднимался</div>`)[0];
+            popup_2b4bd351f5634cdc9caec4d88b576f8b.setContent(html_0d82eaff45bd440b8f46bc8d4068b614);
+        
+
+        marker_a1b8ec51a1b24989a73752ccfa46c437.bindPopup(popup_2b4bd351f5634cdc9caec4d88b576f8b)
+        ;
+
+        
+    
+    
+            marker_a1b8ec51a1b24989a73752ccfa46c437.bindTooltip(
+                `<div>
+                     ООО «ИА Титан-3»
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b6b9ddff2e7048a694195ec79d5ee642 = L.marker(
+                [55.039227350000004, 73.29008193124474],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_d940e1a6fc2b474b83b3acc97d7199b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eced72d988944db4a05a8a96ca847619 = $(`<div id="html_eced72d988944db4a05a8a96ca847619" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_d940e1a6fc2b474b83b3acc97d7199b4.setContent(html_eced72d988944db4a05a8a96ca847619);
+        
+
+        marker_b6b9ddff2e7048a694195ec79d5ee642.bindPopup(popup_d940e1a6fc2b474b83b3acc97d7199b4)
+        ;
+
+        
+    
+    
+            marker_b6b9ddff2e7048a694195ec79d5ee642.bindTooltip(
+                `<div>
+                     ОАО "ОНПС"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_909cf55c442f4a3ab1131421cb7b2d1f = L.marker(
+                [50.45711015, 40.083775405963685],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_bb006cbd8c214b70b896feb974e4d856 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ab1e2f79fe84158a9df5d1b26fa174c = $(`<div id="html_8ab1e2f79fe84158a9df5d1b26fa174c" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_bb006cbd8c214b70b896feb974e4d856.setContent(html_8ab1e2f79fe84158a9df5d1b26fa174c);
+        
+
+        marker_909cf55c442f4a3ab1131421cb7b2d1f.bindPopup(popup_bb006cbd8c214b70b896feb974e4d856)
+        ;
+
+        
+    
+    
+            marker_909cf55c442f4a3ab1131421cb7b2d1f.bindTooltip(
+                `<div>
+                     ОАО "ПССРЗ"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_439cf341385144a787ded9affce800bc = L.marker(
+                [43.090361200000004, 131.92402847494827],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_c7a38f1161d24259ae24198dfa43bc18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4833ca41f72640ccafd20313b98cdcc0 = $(`<div id="html_4833ca41f72640ccafd20313b98cdcc0" style="width: 100.0%; height: 100.0%;">Вопрос не поднимался</div>`)[0];
+            popup_c7a38f1161d24259ae24198dfa43bc18.setContent(html_4833ca41f72640ccafd20313b98cdcc0);
+        
+
+        marker_439cf341385144a787ded9affce800bc.bindPopup(popup_c7a38f1161d24259ae24198dfa43bc18)
+        ;
+
+        
+    
+    
+            marker_439cf341385144a787ded9affce800bc.bindTooltip(
+                `<div>
+                     АО "Восточная верфь"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6533b454c1dc4250b5dbbd1935c14342 = L.marker(
+                [56.8340299, 35.9766669],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_41f08feb6305485abbd5717e7250fd86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2315156dd6b4314894ade1bdb55dea6 = $(`<div id="html_b2315156dd6b4314894ade1bdb55dea6" style="width: 100.0%; height: 100.0%;">Принято решение выплатить дивиденды</div>`)[0];
+            popup_41f08feb6305485abbd5717e7250fd86.setContent(html_b2315156dd6b4314894ade1bdb55dea6);
+        
+
+        marker_6533b454c1dc4250b5dbbd1935c14342.bindPopup(popup_41f08feb6305485abbd5717e7250fd86)
+        ;
+
+        
+    
+    
+            marker_6533b454c1dc4250b5dbbd1935c14342.bindTooltip(
+                `<div>
+                     ОАО "Тверской порт"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f2ade135bb5b468d87474a7cda7c06e8 = L.marker(
+                [44.7239578, 37.7690711],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_a944e410300a46f5b032c4a7cf7d73e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9be2402cdbd8481387efdb8f86531ae5 = $(`<div id="html_9be2402cdbd8481387efdb8f86531ae5" style="width: 100.0%; height: 100.0%;">Принято решение выплатить дивиденды</div>`)[0];
+            popup_a944e410300a46f5b032c4a7cf7d73e3.setContent(html_9be2402cdbd8481387efdb8f86531ae5);
+        
+
+        marker_f2ade135bb5b468d87474a7cda7c06e8.bindPopup(popup_a944e410300a46f5b032c4a7cf7d73e3)
+        ;
+
+        
+    
+    
+            marker_f2ade135bb5b468d87474a7cda7c06e8.bindTooltip(
+                `<div>
+                     АО "Прибой"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f0f435e82fda4282af6c1f149d18f0f0 = L.marker(
+                [59.981035, 30.3254614],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_1712362e338b4b95868d5f63a85fabcf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b279ad20e1ba4f08a13924909edb48a8 = $(`<div id="html_b279ad20e1ba4f08a13924909edb48a8" style="width: 100.0%; height: 100.0%;">Принято решение выплатить дивиденды</div>`)[0];
+            popup_1712362e338b4b95868d5f63a85fabcf.setContent(html_b279ad20e1ba4f08a13924909edb48a8);
+        
+
+        marker_f0f435e82fda4282af6c1f149d18f0f0.bindPopup(popup_1712362e338b4b95868d5f63a85fabcf)
+        ;
+
+        
+    
+    
+            marker_f0f435e82fda4282af6c1f149d18f0f0.bindTooltip(
+                `<div>
+                     ОАО "Совет по туризму и экскурсиям СПб"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b652ff3c601444eaf5fef61e2a692f6 = L.marker(
+                [54.19510685405796, 45.178449003811394],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_3c579844c15a4dd7abe974c2f1d2ed6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_191e80459a1d401aa7b02ddaeae4ede6 = $(`<div id="html_191e80459a1d401aa7b02ddaeae4ede6" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_3c579844c15a4dd7abe974c2f1d2ed6c.setContent(html_191e80459a1d401aa7b02ddaeae4ede6);
+        
+
+        marker_2b652ff3c601444eaf5fef61e2a692f6.bindPopup(popup_3c579844c15a4dd7abe974c2f1d2ed6c)
+        ;
+
+        
+    
+    
+            marker_2b652ff3c601444eaf5fef61e2a692f6.bindTooltip(
+                `<div>
+                     ПАО "Электровыпрямитель"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_426bde469d1b47729fbdcfb8eda2ef81 = L.marker(
+                [45.3727217, 40.711580765256585],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_0c2247d95a3840dd9f124a1690642487 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06c569112efd4c9eb005977198cdc70f = $(`<div id="html_06c569112efd4c9eb005977198cdc70f" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_0c2247d95a3840dd9f124a1690642487.setContent(html_06c569112efd4c9eb005977198cdc70f);
+        
+
+        marker_426bde469d1b47729fbdcfb8eda2ef81.bindPopup(popup_0c2247d95a3840dd9f124a1690642487)
+        ;
+
+        
+    
+    
+            marker_426bde469d1b47729fbdcfb8eda2ef81.bindTooltip(
+                `<div>
+                     ОАО АПСК "Гулькевичский"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c8859730dee34eb89ab5f96181ec1423 = L.marker(
+                [55.7109553, 37.6038841],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_8adbce16d8614467aaefddfc5e9ef802 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a55ed3fde0d445a8be6947621f97cf76 = $(`<div id="html_a55ed3fde0d445a8be6947621f97cf76" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_8adbce16d8614467aaefddfc5e9ef802.setContent(html_a55ed3fde0d445a8be6947621f97cf76);
+        
+
+        marker_c8859730dee34eb89ab5f96181ec1423.bindPopup(popup_8adbce16d8614467aaefddfc5e9ef802)
+        ;
+
+        
+    
+    
+            marker_c8859730dee34eb89ab5f96181ec1423.bindTooltip(
+                `<div>
+                     ПАО "О11"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1c39dcda51d448a5a6b112c5aabc6d93 = L.marker(
+                [68.970665, 33.07497],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_63e95a468c194a348b753136c5dd03ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58994e1d8aa645328fe7b261642adea0 = $(`<div id="html_58994e1d8aa645328fe7b261642adea0" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_63e95a468c194a348b753136c5dd03ff.setContent(html_58994e1d8aa645328fe7b261642adea0);
+        
+
+        marker_1c39dcda51d448a5a6b112c5aabc6d93.bindPopup(popup_63e95a468c194a348b753136c5dd03ff)
+        ;
+
+        
+    
+    
+            marker_1c39dcda51d448a5a6b112c5aabc6d93.bindTooltip(
+                `<div>
+                     АО "Трест Мурманскморстрой"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eda4296abd4f4678b0301c7c93132227 = L.marker(
+                [55.7351482, 37.7149818],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_0b202246b09a465883770ce53a2fcace = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09bf73ffb36d49fc9d958a81886e2f05 = $(`<div id="html_09bf73ffb36d49fc9d958a81886e2f05" style="width: 100.0%; height: 100.0%;">Вопрос не поднимался</div>`)[0];
+            popup_0b202246b09a465883770ce53a2fcace.setContent(html_09bf73ffb36d49fc9d958a81886e2f05);
+        
+
+        marker_eda4296abd4f4678b0301c7c93132227.bindPopup(popup_0b202246b09a465883770ce53a2fcace)
+        ;
+
+        
+    
+    
+            marker_eda4296abd4f4678b0301c7c93132227.bindTooltip(
+                `<div>
+                     ПАО "НПЦ НИИЭС"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6673446ef0b643838a2fcf0503ef0ed3 = L.marker(
+                [44.9993585, 41.1294061],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_3f6750db669f4e1d8c5a16b1f0fc42f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1718e4718b1349f68650dba1cd00669d = $(`<div id="html_1718e4718b1349f68650dba1cd00669d" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_3f6750db669f4e1d8c5a16b1f0fc42f7.setContent(html_1718e4718b1349f68650dba1cd00669d);
+        
+
+        marker_6673446ef0b643838a2fcf0503ef0ed3.bindPopup(popup_3f6750db669f4e1d8c5a16b1f0fc42f7)
+        ;
+
+        
+    
+    
+            marker_6673446ef0b643838a2fcf0503ef0ed3.bindTooltip(
+                `<div>
+                     АО "АЗРИ"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69948090e5b54ed3ae0e4eec43ec8937 = L.marker(
+                [55.15655155, 61.40405331162604],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_01816fdbce82422d9931b0a6e2543be9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20ae479d8e324fd89afaaf02445fd1a8 = $(`<div id="html_20ae479d8e324fd89afaaf02445fd1a8" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_01816fdbce82422d9931b0a6e2543be9.setContent(html_20ae479d8e324fd89afaaf02445fd1a8);
+        
+
+        marker_69948090e5b54ed3ae0e4eec43ec8937.bindPopup(popup_01816fdbce82422d9931b0a6e2543be9)
+        ;
+
+        
+    
+    
+            marker_69948090e5b54ed3ae0e4eec43ec8937.bindTooltip(
+                `<div>
+                     АО " ТРЕСТ УРАЛНЕФТЕГАЗСТРОЙ"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_588abf3fdc284ab0ac9158c3bf348713 = L.marker(
+                [55.7565564, 37.5180784],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_babbf092d65441f1aa7976916df22718 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e298a6e39fa94f11a65ccdedebd1a97e = $(`<div id="html_e298a6e39fa94f11a65ccdedebd1a97e" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_babbf092d65441f1aa7976916df22718.setContent(html_e298a6e39fa94f11a65ccdedebd1a97e);
+        
+
+        marker_588abf3fdc284ab0ac9158c3bf348713.bindPopup(popup_babbf092d65441f1aa7976916df22718)
+        ;
+
+        
+    
+    
+            marker_588abf3fdc284ab0ac9158c3bf348713.bindTooltip(
+                `<div>
+                     ОАО "Фабрика-прачечная МГ"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0864dd32939f4a4da06d80733ccb21af = L.marker(
+                [53.8208808, 34.4215602],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_581ad68e8814413db88ec389b1674f58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_477c1df20c9b475fad8b8ff37894cda5 = $(`<div id="html_477c1df20c9b475fad8b8ff37894cda5" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_581ad68e8814413db88ec389b1674f58.setContent(html_477c1df20c9b475fad8b8ff37894cda5);
+        
+
+        marker_0864dd32939f4a4da06d80733ccb21af.bindPopup(popup_581ad68e8814413db88ec389b1674f58)
+        ;
+
+        
+    
+    
+            marker_0864dd32939f4a4da06d80733ccb21af.bindTooltip(
+                `<div>
+                     ПАО "Агрегатный завод"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cd33274edc564ec1bb285ab160a1715c = L.marker(
+                [56.8612468, 35.9120466],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_3e4f8184334148b0baa3150d64f56aaf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96906a7aba6a4671859b6f3e863682ec = $(`<div id="html_96906a7aba6a4671859b6f3e863682ec" style="width: 100.0%; height: 100.0%;">Принято решение выплатить дивиденды</div>`)[0];
+            popup_3e4f8184334148b0baa3150d64f56aaf.setContent(html_96906a7aba6a4671859b6f3e863682ec);
+        
+
+        marker_cd33274edc564ec1bb285ab160a1715c.bindPopup(popup_3e4f8184334148b0baa3150d64f56aaf)
+        ;
+
+        
+    
+    
+            marker_cd33274edc564ec1bb285ab160a1715c.bindTooltip(
+                `<div>
+                     ПАО "М.видео"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d6e1e9bd334a4aae84d000bf929c0113 = L.marker(
+                [55.741358, 37.7182029],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_61e25979808a4a39bdaafa3d06df419f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e7be6887c0f4267a0e3c5728944209f = $(`<div id="html_2e7be6887c0f4267a0e3c5728944209f" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_61e25979808a4a39bdaafa3d06df419f.setContent(html_2e7be6887c0f4267a0e3c5728944209f);
+        
+
+        marker_d6e1e9bd334a4aae84d000bf929c0113.bindPopup(popup_61e25979808a4a39bdaafa3d06df419f)
+        ;
+
+        
+    
+    
+            marker_d6e1e9bd334a4aae84d000bf929c0113.bindTooltip(
+                `<div>
+                     АО "МаЛеДи-Ли"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_78dce8439c99463a83e9dc7c239e36ff = L.marker(
+                [55.728708, 37.64495052610569],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_8484684df7fd42f5af6f2e410687a1ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2cb96ad7d9824115a6329c27df041e8f = $(`<div id="html_2cb96ad7d9824115a6329c27df041e8f" style="width: 100.0%; height: 100.0%;">Вопрос не поднимался</div>`)[0];
+            popup_8484684df7fd42f5af6f2e410687a1ac.setContent(html_2cb96ad7d9824115a6329c27df041e8f);
+        
+
+        marker_78dce8439c99463a83e9dc7c239e36ff.bindPopup(popup_8484684df7fd42f5af6f2e410687a1ac)
+        ;
+
+        
+    
+    
+            marker_78dce8439c99463a83e9dc7c239e36ff.bindTooltip(
+                `<div>
+                     АО "Группа Ренессанс Страхование"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_65e1ca224f80408589fe8e286f599c90 = L.marker(
+                [52.511561900000004, 103.83572065006116],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_3838b83093d642a1825dbdc4d88d7a8d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd180ed9485f4195962291f15fa0c459 = $(`<div id="html_fd180ed9485f4195962291f15fa0c459" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_3838b83093d642a1825dbdc4d88d7a8d.setContent(html_fd180ed9485f4195962291f15fa0c459);
+        
+
+        marker_65e1ca224f80408589fe8e286f599c90.bindPopup(popup_3838b83093d642a1825dbdc4d88d7a8d)
+        ;
+
+        
+    
+    
+            marker_65e1ca224f80408589fe8e286f599c90.bindTooltip(
+                `<div>
+                     РСП ОАО "ДОСТ"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9dc631c763b045b6a04c98b861db377a = L.marker(
+                [48.92298585, 40.3692821],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_4ade192fb1fe471a9afca8908e214ae2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8527ab3e746047288d87ab94c81e855e = $(`<div id="html_8527ab3e746047288d87ab94c81e855e" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_4ade192fb1fe471a9afca8908e214ae2.setContent(html_8527ab3e746047288d87ab94c81e855e);
+        
+
+        marker_9dc631c763b045b6a04c98b861db377a.bindPopup(popup_4ade192fb1fe471a9afca8908e214ae2)
+        ;
+
+        
+    
+    
+            marker_9dc631c763b045b6a04c98b861db377a.bindTooltip(
+                `<div>
+                     ПАО «Миллеровосельмаш»
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c56b5b444ab94b4e80c8367af6c1aa9c = L.marker(
+                [45.0352566, 38.9764814],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_663818ff8d304636823f18fd825ca24d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a87e29ac40c3477c97245cb0b09383fc = $(`<div id="html_a87e29ac40c3477c97245cb0b09383fc" style="width: 100.0%; height: 100.0%;">Принято решение выплатить дивиденды</div>`)[0];
+            popup_663818ff8d304636823f18fd825ca24d.setContent(html_a87e29ac40c3477c97245cb0b09383fc);
+        
+
+        marker_c56b5b444ab94b4e80c8367af6c1aa9c.bindPopup(popup_663818ff8d304636823f18fd825ca24d)
+        ;
+
+        
+    
+    
+            marker_c56b5b444ab94b4e80c8367af6c1aa9c.bindTooltip(
+                `<div>
+                     АО "Приват-Инвест"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69af425b9bab4c45a877098bb2fd771c = L.marker(
+                [42.9830241, 47.5048717],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_22b80751775a4f84b44b1bf032d56900 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09e2d237a8764debb187ed9cad81bf4c = $(`<div id="html_09e2d237a8764debb187ed9cad81bf4c" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_22b80751775a4f84b44b1bf032d56900.setContent(html_09e2d237a8764debb187ed9cad81bf4c);
+        
+
+        marker_69af425b9bab4c45a877098bb2fd771c.bindPopup(popup_22b80751775a4f84b44b1bf032d56900)
+        ;
+
+        
+    
+    
+            marker_69af425b9bab4c45a877098bb2fd771c.bindTooltip(
+                `<div>
+                     ПАО «Дагестанская энергосбытовая компания»
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f103d152ee484b4cab01ea5e5f3afc04 = L.marker(
+                [54.5644572, 36.2605125],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_b2087ca0c6c343b4853dd6d35dc6b76f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6cf77c575f847028caa8d1a9a1a73ee = $(`<div id="html_c6cf77c575f847028caa8d1a9a1a73ee" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_b2087ca0c6c343b4853dd6d35dc6b76f.setContent(html_c6cf77c575f847028caa8d1a9a1a73ee);
+        
+
+        marker_f103d152ee484b4cab01ea5e5f3afc04.bindPopup(popup_b2087ca0c6c343b4853dd6d35dc6b76f)
+        ;
+
+        
+    
+    
+            marker_f103d152ee484b4cab01ea5e5f3afc04.bindTooltip(
+                `<div>
+                     АО "Автоэлектроника"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e7ab48cf7108493a9188af8c5b56ba7f = L.marker(
+                [47.2422348, 39.6424009],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_209843f35f6845049fa0cb889cf35173 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c230d640abd44388b9402564f219361f = $(`<div id="html_c230d640abd44388b9402564f219361f" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_209843f35f6845049fa0cb889cf35173.setContent(html_c230d640abd44388b9402564f219361f);
+        
+
+        marker_e7ab48cf7108493a9188af8c5b56ba7f.bindPopup(popup_209843f35f6845049fa0cb889cf35173)
+        ;
+
+        
+    
+    
+            marker_e7ab48cf7108493a9188af8c5b56ba7f.bindTooltip(
+                `<div>
+                     ПАО "Донтрансавто"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2eb8221a05e74e69bfe2caad3f492b9e = L.marker(
+                [68.9706355, 33.0873446],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_38b48ee3f1ba4dbf9e4fe12b648b066f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_238d67be65df4a95a1b64a0f07e324e8 = $(`<div id="html_238d67be65df4a95a1b64a0f07e324e8" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_38b48ee3f1ba4dbf9e4fe12b648b066f.setContent(html_238d67be65df4a95a1b64a0f07e324e8);
+        
+
+        marker_2eb8221a05e74e69bfe2caad3f492b9e.bindPopup(popup_38b48ee3f1ba4dbf9e4fe12b648b066f)
+        ;
+
+        
+    
+    
+            marker_2eb8221a05e74e69bfe2caad3f492b9e.bindTooltip(
+                `<div>
+                     ПАО "МУРМАНСКЖИЛСТРОЙ"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e435429e4e94772a634885e2d7aae4a = L.marker(
+                [54.6172539, 39.7395419],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_a4ae10bfad87415c98cf6b63b02234cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85e511e819184349816d4b7233186818 = $(`<div id="html_85e511e819184349816d4b7233186818" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_a4ae10bfad87415c98cf6b63b02234cf.setContent(html_85e511e819184349816d4b7233186818);
+        
+
+        marker_1e435429e4e94772a634885e2d7aae4a.bindPopup(popup_a4ae10bfad87415c98cf6b63b02234cf)
+        ;
+
+        
+    
+    
+            marker_1e435429e4e94772a634885e2d7aae4a.bindTooltip(
+                `<div>
+                     Банк "Вятич" (ПАО)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_328f345d78734d59b7640f2f0f633319 = L.marker(
+                [56.6321608, 47.8967953],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_d7f11d2f542f463fa20e37d0cda2b2be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf0d1b2df567458ea8674f08b3c25a6c = $(`<div id="html_cf0d1b2df567458ea8674f08b3c25a6c" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_d7f11d2f542f463fa20e37d0cda2b2be.setContent(html_cf0d1b2df567458ea8674f08b3c25a6c);
+        
+
+        marker_328f345d78734d59b7640f2f0f633319.bindPopup(popup_d7f11d2f542f463fa20e37d0cda2b2be)
+        ;
+
+        
+    
+    
+            marker_328f345d78734d59b7640f2f0f633319.bindTooltip(
+                `<div>
+                     ПАО "Земля-инвест"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b1cd5d0dd3d24c399e8f3b60580ed1e4 = L.marker(
+                [55.7504461, 37.6174943],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_55ded62660c64678bf496f728cb5bdaf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1921c0901664e1490d40b69cffea231 = $(`<div id="html_b1921c0901664e1490d40b69cffea231" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_55ded62660c64678bf496f728cb5bdaf.setContent(html_b1921c0901664e1490d40b69cffea231);
+        
+
+        marker_b1cd5d0dd3d24c399e8f3b60580ed1e4.bindPopup(popup_55ded62660c64678bf496f728cb5bdaf)
+        ;
+
+        
+    
+    
+            marker_b1cd5d0dd3d24c399e8f3b60580ed1e4.bindTooltip(
+                `<div>
+                     ПАО «Россети Московский регион»
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69b032edbf2b470691a10c7827697138 = L.marker(
+                [59.8948475, 30.4122941],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_7e4fa4bd01564b3ab9069fd46f84eefd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5427550079c741bab0b329a47c03600b = $(`<div id="html_5427550079c741bab0b329a47c03600b" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_7e4fa4bd01564b3ab9069fd46f84eefd.setContent(html_5427550079c741bab0b329a47c03600b);
+        
+
+        marker_69b032edbf2b470691a10c7827697138.bindPopup(popup_7e4fa4bd01564b3ab9069fd46f84eefd)
+        ;
+
+        
+    
+    
+            marker_69b032edbf2b470691a10c7827697138.bindTooltip(
+                `<div>
+                     АО "ОЭВРЗ"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_928326291e0f40fe8c29287cac0b427b = L.marker(
+                [52.3522239, 56.0395904],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_2c92cd772a6d4d59b4c8409b5a268706 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d74e2d1e6d074a19a458e63109601317 = $(`<div id="html_d74e2d1e6d074a19a458e63109601317" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_2c92cd772a6d4d59b4c8409b5a268706.setContent(html_d74e2d1e6d074a19a458e63109601317);
+        
+
+        marker_928326291e0f40fe8c29287cac0b427b.bindPopup(popup_2c92cd772a6d4d59b4c8409b5a268706)
+        ;
+
+        
+    
+    
+            marker_928326291e0f40fe8c29287cac0b427b.bindTooltip(
+                `<div>
+                     АО "Тюльганское ХПП"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_487cbe43520947cf9558f8008ce6d9ca = L.marker(
+                [55.793349, 37.9021029],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_2cc9537504314cc9b2da3a373bf64f25 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79068db702ae49739e8c1b3fe5d8d84b = $(`<div id="html_79068db702ae49739e8c1b3fe5d8d84b" style="width: 100.0%; height: 100.0%;">Вопрос не поднимался</div>`)[0];
+            popup_2cc9537504314cc9b2da3a373bf64f25.setContent(html_79068db702ae49739e8c1b3fe5d8d84b);
+        
+
+        marker_487cbe43520947cf9558f8008ce6d9ca.bindPopup(popup_2cc9537504314cc9b2da3a373bf64f25)
+        ;
+
+        
+    
+    
+            marker_487cbe43520947cf9558f8008ce6d9ca.bindTooltip(
+                `<div>
+                     ОАО «БЛМЗ»
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c115b128c7440bf9911198cd756228b = L.marker(
+                [59.2146875, 39.87283500064254],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_3996c6e481fd43b79b45e5b0bdbdebb6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30032fc5557b45a8836b5a7ac5b76633 = $(`<div id="html_30032fc5557b45a8836b5a7ac5b76633" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_3996c6e481fd43b79b45e5b0bdbdebb6.setContent(html_30032fc5557b45a8836b5a7ac5b76633);
+        
+
+        marker_2c115b128c7440bf9911198cd756228b.bindPopup(popup_3996c6e481fd43b79b45e5b0bdbdebb6)
+        ;
+
+        
+    
+    
+            marker_2c115b128c7440bf9911198cd756228b.bindTooltip(
+                `<div>
+                     СеверСтройБанк" АО
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1258e39f0000463bb876e88fa1f27b63 = L.marker(
+                [56.50072375, 84.97302189222975],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_a29052e5db934b65a66b3ffec13a7003 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6744bf65640b4e3f9fdde3af7454796e = $(`<div id="html_6744bf65640b4e3f9fdde3af7454796e" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_a29052e5db934b65a66b3ffec13a7003.setContent(html_6744bf65640b4e3f9fdde3af7454796e);
+        
+
+        marker_1258e39f0000463bb876e88fa1f27b63.bindPopup(popup_a29052e5db934b65a66b3ffec13a7003)
+        ;
+
+        
+    
+    
+            marker_1258e39f0000463bb876e88fa1f27b63.bindTooltip(
+                `<div>
+                     АО "Сибкабель"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c810d1be030242c4bbbce6ebf2adf48f = L.marker(
+                [59.9689346, 30.2591806],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_48e94a05d1d7412ab9d71b1d5efb6266 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4cc1a589c9ce4d45ad1f6aeb64c91e5b = $(`<div id="html_4cc1a589c9ce4d45ad1f6aeb64c91e5b" style="width: 100.0%; height: 100.0%;">Вопрос не поднимался</div>`)[0];
+            popup_48e94a05d1d7412ab9d71b1d5efb6266.setContent(html_4cc1a589c9ce4d45ad1f6aeb64c91e5b);
+        
+
+        marker_c810d1be030242c4bbbce6ebf2adf48f.bindPopup(popup_48e94a05d1d7412ab9d71b1d5efb6266)
+        ;
+
+        
+    
+    
+            marker_c810d1be030242c4bbbce6ebf2adf48f.bindTooltip(
+                `<div>
+                     ОАО "Мегаспорт"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_394bc139d5784f909b95d1ec59a0e6b2 = L.marker(
+                [56.0090863, 37.1880341],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_48fc168a01cb4621bf2a042c39a428b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_309b82eeb3d24c4ab53b1f8a354fe590 = $(`<div id="html_309b82eeb3d24c4ab53b1f8a354fe590" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_48fc168a01cb4621bf2a042c39a428b6.setContent(html_309b82eeb3d24c4ab53b1f8a354fe590);
+        
+
+        marker_394bc139d5784f909b95d1ec59a0e6b2.bindPopup(popup_48fc168a01cb4621bf2a042c39a428b6)
+        ;
+
+        
+    
+    
+            marker_394bc139d5784f909b95d1ec59a0e6b2.bindTooltip(
+                `<div>
+                     АО СКБ "СПУРТ"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e311e83799674ecba21027a9cc2dd4b8 = L.marker(
+                [56.2699659, 38.1209082],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_5567a3de997a45cea2df6a8189bcf7ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9656e5de570243ecbd9ffcc265d706c4 = $(`<div id="html_9656e5de570243ecbd9ffcc265d706c4" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_5567a3de997a45cea2df6a8189bcf7ba.setContent(html_9656e5de570243ecbd9ffcc265d706c4);
+        
+
+        marker_e311e83799674ecba21027a9cc2dd4b8.bindPopup(popup_5567a3de997a45cea2df6a8189bcf7ba)
+        ;
+
+        
+    
+    
+            marker_e311e83799674ecba21027a9cc2dd4b8.bindTooltip(
+                `<div>
+                     ОАО «СЕРВИС-ЛЮКС»
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bfebf9295ee144be90ab41392b9973ae = L.marker(
+                [51.6969549, 39.273498],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_7d891ebf67e94fbd871348e9ed97257c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66de9fc7ac364612925fe577487b511c = $(`<div id="html_66de9fc7ac364612925fe577487b511c" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_7d891ebf67e94fbd871348e9ed97257c.setContent(html_66de9fc7ac364612925fe577487b511c);
+        
+
+        marker_bfebf9295ee144be90ab41392b9973ae.bindPopup(popup_7d891ebf67e94fbd871348e9ed97257c)
+        ;
+
+        
+    
+    
+            marker_bfebf9295ee144be90ab41392b9973ae.bindTooltip(
+                `<div>
+                     ОАО "НИИПМ"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9cc98ef032d24d5f84f9b98e08a95982 = L.marker(
+                [48.7874641, 132.9361391],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_69beb01370544c47b62f4cb02c59fe8f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fef0ff6bb630423288c2d743c1056f2e = $(`<div id="html_fef0ff6bb630423288c2d743c1056f2e" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_69beb01370544c47b62f4cb02c59fe8f.setContent(html_fef0ff6bb630423288c2d743c1056f2e);
+        
+
+        marker_9cc98ef032d24d5f84f9b98e08a95982.bindPopup(popup_69beb01370544c47b62f4cb02c59fe8f)
+        ;
+
+        
+    
+    
+            marker_9cc98ef032d24d5f84f9b98e08a95982.bindTooltip(
+                `<div>
+                     ПАО "Биробиджанстрой"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d1859f26256d48cf80acc9f7fc89d886 = L.marker(
+                [55.6452216, 37.6424626],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_8eff03d1bb384cfdbca347c1bc492fb3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1bde6188cba94d7fa9438b430389c493 = $(`<div id="html_1bde6188cba94d7fa9438b430389c493" style="width: 100.0%; height: 100.0%;">Принято решение выплатить дивиденды</div>`)[0];
+            popup_8eff03d1bb384cfdbca347c1bc492fb3.setContent(html_1bde6188cba94d7fa9438b430389c493);
+        
+
+        marker_d1859f26256d48cf80acc9f7fc89d886.bindPopup(popup_8eff03d1bb384cfdbca347c1bc492fb3)
+        ;
+
+        
+    
+    
+            marker_d1859f26256d48cf80acc9f7fc89d886.bindTooltip(
+                `<div>
+                     АО «Экспостроймаш»
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ea894f40e6844a99af693900dd372e2 = L.marker(
+                [61.7614464, 34.4284674],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_44122dfa967d42ed8143a3b804a55f08 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d62a85d03a1b4e90b0b43279fe0e9fac = $(`<div id="html_d62a85d03a1b4e90b0b43279fe0e9fac" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_44122dfa967d42ed8143a3b804a55f08.setContent(html_d62a85d03a1b4e90b0b43279fe0e9fac);
+        
+
+        marker_1ea894f40e6844a99af693900dd372e2.bindPopup(popup_44122dfa967d42ed8143a3b804a55f08)
+        ;
+
+        
+    
+    
+            marker_1ea894f40e6844a99af693900dd372e2.bindTooltip(
+                `<div>
+                     АО "Славмо"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_14465150c6794b31ace0fd3d5e647da8 = L.marker(
+                [52.726314, 41.4393673],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_f16089c749274d3b8682ebe54605332a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_580cfbc89de34c829a79d41d97461eac = $(`<div id="html_580cfbc89de34c829a79d41d97461eac" style="width: 100.0%; height: 100.0%;">Принято решение выплатить дивиденды</div>`)[0];
+            popup_f16089c749274d3b8682ebe54605332a.setContent(html_580cfbc89de34c829a79d41d97461eac);
+        
+
+        marker_14465150c6794b31ace0fd3d5e647da8.bindPopup(popup_f16089c749274d3b8682ebe54605332a)
+        ;
+
+        
+    
+    
+            marker_14465150c6794b31ace0fd3d5e647da8.bindTooltip(
+                `<div>
+                     АО "Деметра"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9841f8487726426e9453839c69469fc6 = L.marker(
+                [44.648800550000004, 39.12834997692208],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_a8d459bf36b3430e83353b6f6aef1180 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b343fe9f48d443ef99a441957c1542b1 = $(`<div id="html_b343fe9f48d443ef99a441957c1542b1" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_a8d459bf36b3430e83353b6f6aef1180.setContent(html_b343fe9f48d443ef99a441957c1542b1);
+        
+
+        marker_9841f8487726426e9453839c69469fc6.bindPopup(popup_a8d459bf36b3430e83353b6f6aef1180)
+        ;
+
+        
+    
+    
+            marker_9841f8487726426e9453839c69469fc6.bindTooltip(
+                `<div>
+                     АО "КПАС"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f7b4172fba3745c3863a0187f230f0db = L.marker(
+                [55.178477900000004, 59.66398201628675],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_5f3c431057c14589b7c62b50fbf9be97 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_863fb98095e84d8898fee300fa3bbac1 = $(`<div id="html_863fb98095e84d8898fee300fa3bbac1" style="width: 100.0%; height: 100.0%;">Принято решение выплатить дивиденды</div>`)[0];
+            popup_5f3c431057c14589b7c62b50fbf9be97.setContent(html_863fb98095e84d8898fee300fa3bbac1);
+        
+
+        marker_f7b4172fba3745c3863a0187f230f0db.bindPopup(popup_5f3c431057c14589b7c62b50fbf9be97)
+        ;
+
+        
+    
+    
+            marker_f7b4172fba3745c3863a0187f230f0db.bindTooltip(
+                `<div>
+                     ПАО «ЧЕЛИНДБАНК».
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b0cbfc7dff0543d2a1052d6031a814a3 = L.marker(
+                [57.4236349, 60.0680725],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_fdc338dac1a5483e9614f628a172c78e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a80392bcae649cf936b0393af7aa56f = $(`<div id="html_1a80392bcae649cf936b0393af7aa56f" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_fdc338dac1a5483e9614f628a172c78e.setContent(html_1a80392bcae649cf936b0393af7aa56f);
+        
+
+        marker_b0cbfc7dff0543d2a1052d6031a814a3.bindPopup(popup_fdc338dac1a5483e9614f628a172c78e)
+        ;
+
+        
+    
+    
+            marker_b0cbfc7dff0543d2a1052d6031a814a3.bindTooltip(
+                `<div>
+                     АО "КЗТС"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b60a66e964284687b181c4a2be8ead94 = L.marker(
+                [48.92203535, 40.39739240770882],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_554c870d47434dedbc80cd77ccaf46d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29d52beadd994b1c802395d5d42c4675 = $(`<div id="html_29d52beadd994b1c802395d5d42c4675" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_554c870d47434dedbc80cd77ccaf46d5.setContent(html_29d52beadd994b1c802395d5d42c4675);
+        
+
+        marker_b60a66e964284687b181c4a2be8ead94.bindPopup(popup_554c870d47434dedbc80cd77ccaf46d5)
+        ;
+
+        
+    
+    
+            marker_b60a66e964284687b181c4a2be8ead94.bindTooltip(
+                `<div>
+                     АО «МГОК»
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1400553dcf8b42209b5075980bd2bf74 = L.marker(
+                [45.0352566, 38.9764814],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_aea95d56db8d4fb6b97adba8147be81a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d994b0454ea943cd9c158222b08f7b92 = $(`<div id="html_d994b0454ea943cd9c158222b08f7b92" style="width: 100.0%; height: 100.0%;">Принято решение выплатить дивиденды</div>`)[0];
+            popup_aea95d56db8d4fb6b97adba8147be81a.setContent(html_d994b0454ea943cd9c158222b08f7b92);
+        
+
+        marker_1400553dcf8b42209b5075980bd2bf74.bindPopup(popup_aea95d56db8d4fb6b97adba8147be81a)
+        ;
+
+        
+    
+    
+            marker_1400553dcf8b42209b5075980bd2bf74.bindTooltip(
+                `<div>
+                     АО "Финансовый партнер"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1af67315d2ca489c94f3f0de854bb39f = L.marker(
+                [53.176414, 45.0164298],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_9491dde5cc4b483c9f651d329eb34417 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d2830e73e344d92af4392e7194fc00c = $(`<div id="html_2d2830e73e344d92af4392e7194fc00c" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_9491dde5cc4b483c9f651d329eb34417.setContent(html_2d2830e73e344d92af4392e7194fc00c);
+        
+
+        marker_1af67315d2ca489c94f3f0de854bb39f.bindPopup(popup_9491dde5cc4b483c9f651d329eb34417)
+        ;
+
+        
+    
+    
+            marker_1af67315d2ca489c94f3f0de854bb39f.bindTooltip(
+                `<div>
+                     ОАО "Промэлектроника"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_70fbd6ae031a44cdbe923cb0b11208ef = L.marker(
+                [55.766807150000005, 37.53923665530174],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_ff0c6c9e107c4735be7f18ecabb4cd29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83aedc820ec04226bc4c2553167f84ab = $(`<div id="html_83aedc820ec04226bc4c2553167f84ab" style="width: 100.0%; height: 100.0%;">Принято решение выплатить дивиденды</div>`)[0];
+            popup_ff0c6c9e107c4735be7f18ecabb4cd29.setContent(html_83aedc820ec04226bc4c2553167f84ab);
+        
+
+        marker_70fbd6ae031a44cdbe923cb0b11208ef.bindPopup(popup_ff0c6c9e107c4735be7f18ecabb4cd29)
+        ;
+
+        
+    
+    
+            marker_70fbd6ae031a44cdbe923cb0b11208ef.bindTooltip(
+                `<div>
+                     ОАО "ТСК"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8e77420568d047e4b434063fc4e8d946 = L.marker(
+                [59.938732, 30.316229],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_1f35635b3c0d45bd814b7b17748aee18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_637165b6a7464a1494cbe1fca73fe305 = $(`<div id="html_637165b6a7464a1494cbe1fca73fe305" style="width: 100.0%; height: 100.0%;">Вопрос не поднимался</div>`)[0];
+            popup_1f35635b3c0d45bd814b7b17748aee18.setContent(html_637165b6a7464a1494cbe1fca73fe305);
+        
+
+        marker_8e77420568d047e4b434063fc4e8d946.bindPopup(popup_1f35635b3c0d45bd814b7b17748aee18)
+        ;
+
+        
+    
+    
+            marker_8e77420568d047e4b434063fc4e8d946.bindTooltip(
+                `<div>
+                     ООО "Сэтл Групп"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4ba35174ea374207bd64020fe51b4e04 = L.marker(
+                [48.5548618, 135.0484843],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_7b932b4e8e3f43b790f98076cf6cc9fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57e9fcee734c45f3bccd04edc90d71a4 = $(`<div id="html_57e9fcee734c45f3bccd04edc90d71a4" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_7b932b4e8e3f43b790f98076cf6cc9fa.setContent(html_57e9fcee734c45f3bccd04edc90d71a4);
+        
+
+        marker_4ba35174ea374207bd64020fe51b4e04.bindPopup(popup_7b932b4e8e3f43b790f98076cf6cc9fa)
+        ;
+
+        
+    
+    
+            marker_4ba35174ea374207bd64020fe51b4e04.bindTooltip(
+                `<div>
+                     ОАО "Дальэлектрон"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dd4d46ce7cc3485e929ecff9b5db95f0 = L.marker(
+                [56.8612468, 35.9120466],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_d2aec41d7068449d8cfc154fd47b5729 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a5f3bade7d84922b42516d713e98fc7 = $(`<div id="html_3a5f3bade7d84922b42516d713e98fc7" style="width: 100.0%; height: 100.0%;">Вопрос не поднимался</div>`)[0];
+            popup_d2aec41d7068449d8cfc154fd47b5729.setContent(html_3a5f3bade7d84922b42516d713e98fc7);
+        
+
+        marker_dd4d46ce7cc3485e929ecff9b5db95f0.bindPopup(popup_d2aec41d7068449d8cfc154fd47b5729)
+        ;
+
+        
+    
+    
+            marker_dd4d46ce7cc3485e929ecff9b5db95f0.bindTooltip(
+                `<div>
+                     ПАО «Санкт-Петербургская биржа», ПАО «СПБ»
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d250be03a63b40ccb156aa0613040145 = L.marker(
+                [53.1832478, 45.005243],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_778e8e49b8774a9daed8dfe8eb217182 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_541b7861a772422aae5865d40890c261 = $(`<div id="html_541b7861a772422aae5865d40890c261" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_778e8e49b8774a9daed8dfe8eb217182.setContent(html_541b7861a772422aae5865d40890c261);
+        
+
+        marker_d250be03a63b40ccb156aa0613040145.bindPopup(popup_778e8e49b8774a9daed8dfe8eb217182)
+        ;
+
+        
+    
+    
+            marker_d250be03a63b40ccb156aa0613040145.bindTooltip(
+                `<div>
+                     ПАО Банк «Кузнецкий»
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_33122438dbe041678ccd6094caa4ad31 = L.marker(
+                [55.0730896, 82.9262848],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_53ea9cebab9046bea307075c679ac7a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d0df577d5e2f44b2b00251e8138e9a7a = $(`<div id="html_d0df577d5e2f44b2b00251e8138e9a7a" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_53ea9cebab9046bea307075c679ac7a4.setContent(html_d0df577d5e2f44b2b00251e8138e9a7a);
+        
+
+        marker_33122438dbe041678ccd6094caa4ad31.bindPopup(popup_53ea9cebab9046bea307075c679ac7a4)
+        ;
+
+        
+    
+    
+            marker_33122438dbe041678ccd6094caa4ad31.bindTooltip(
+                `<div>
+                     АО "Завод "Экран"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c4c7c0693934c75a537aa8979da28f6 = L.marker(
+                [50.2589805, 127.5240797],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_fd6d3e34516146cb803c5f9b8da22032 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_442bb919df67421ab689b3ac69c1e8f6 = $(`<div id="html_442bb919df67421ab689b3ac69c1e8f6" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_fd6d3e34516146cb803c5f9b8da22032.setContent(html_442bb919df67421ab689b3ac69c1e8f6);
+        
+
+        marker_6c4c7c0693934c75a537aa8979da28f6.bindPopup(popup_fd6d3e34516146cb803c5f9b8da22032)
+        ;
+
+        
+    
+    
+            marker_6c4c7c0693934c75a537aa8979da28f6.bindTooltip(
+                `<div>
+                     ПАО КБ «Восточный»
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9c284c80fbea46618bf7f4d45ee3a7fb = L.marker(
+                [55.7844937, 37.598999],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_a2f48f11fe2b4740813e4cec7e68d623 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c3cd955c74c4b43a329d9e0488242f5 = $(`<div id="html_6c3cd955c74c4b43a329d9e0488242f5" style="width: 100.0%; height: 100.0%;">Принято решение выплатить дивиденды</div>`)[0];
+            popup_a2f48f11fe2b4740813e4cec7e68d623.setContent(html_6c3cd955c74c4b43a329d9e0488242f5);
+        
+
+        marker_9c284c80fbea46618bf7f4d45ee3a7fb.bindPopup(popup_a2f48f11fe2b4740813e4cec7e68d623)
+        ;
+
+        
+    
+    
+            marker_9c284c80fbea46618bf7f4d45ee3a7fb.bindTooltip(
+                `<div>
+                     ОАО «ПРОМСТРОЙ»
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_16ee2a9c53d3417fb912631d4953e567 = L.marker(
+                [56.8612468, 35.9120466],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_47d51e770d1643499b1adb9eb1d08558 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c9c4b5454ca4852b24f69f38fbecdfa = $(`<div id="html_4c9c4b5454ca4852b24f69f38fbecdfa" style="width: 100.0%; height: 100.0%;">Вопрос не поднимался</div>`)[0];
+            popup_47d51e770d1643499b1adb9eb1d08558.setContent(html_4c9c4b5454ca4852b24f69f38fbecdfa);
+        
+
+        marker_16ee2a9c53d3417fb912631d4953e567.bindPopup(popup_47d51e770d1643499b1adb9eb1d08558)
+        ;
+
+        
+    
+    
+            marker_16ee2a9c53d3417fb912631d4953e567.bindTooltip(
+                `<div>
+                     ПАО "Ил"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4caebeaf1c41428fa07590e7b8b4f877 = L.marker(
+                [57.6263358, 39.8914894],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_b86febb8ceb54c919fcad00afe567574 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5dd0e4b062943f99f6e9e501f68c0f8 = $(`<div id="html_a5dd0e4b062943f99f6e9e501f68c0f8" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_b86febb8ceb54c919fcad00afe567574.setContent(html_a5dd0e4b062943f99f6e9e501f68c0f8);
+        
+
+        marker_4caebeaf1c41428fa07590e7b8b4f877.bindPopup(popup_b86febb8ceb54c919fcad00afe567574)
+        ;
+
+        
+    
+    
+            marker_4caebeaf1c41428fa07590e7b8b4f877.bindTooltip(
+                `<div>
+                     АО ФЦ "Народный"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_16e0bdcca2e3407ba48eb83ceff3e27c = L.marker(
+                [51.3041338, 37.854823],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_301dba99e3904044949d1c74233f38c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6cada9a2770a4ce4a705f2c944b2b3dd = $(`<div id="html_6cada9a2770a4ce4a705f2c944b2b3dd" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_301dba99e3904044949d1c74233f38c8.setContent(html_6cada9a2770a4ce4a705f2c944b2b3dd);
+        
+
+        marker_16e0bdcca2e3407ba48eb83ceff3e27c.bindPopup(popup_301dba99e3904044949d1c74233f38c8)
+        ;
+
+        
+    
+    
+            marker_16e0bdcca2e3407ba48eb83ceff3e27c.bindTooltip(
+                `<div>
+                     ОАО "Автофургон"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ada59a48b56400f95004c1f725bcda5 = L.marker(
+                [54.9148236, 33.2989051],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_e1805e84a34e4053a6d45c56686de3fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_340bdf22df1943e09a0639627513e53f = $(`<div id="html_340bdf22df1943e09a0639627513e53f" style="width: 100.0%; height: 100.0%;">Принято решение выплатить дивиденды</div>`)[0];
+            popup_e1805e84a34e4053a6d45c56686de3fa.setContent(html_340bdf22df1943e09a0639627513e53f);
+        
+
+        marker_1ada59a48b56400f95004c1f725bcda5.bindPopup(popup_e1805e84a34e4053a6d45c56686de3fa)
+        ;
+
+        
+    
+    
+            marker_1ada59a48b56400f95004c1f725bcda5.bindTooltip(
+                `<div>
+                     ПАО "Дорогобуж"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a217d41ba7db4a1881cb13002567660c = L.marker(
+                [57.6198889, 39.8533983],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_c6d9c9b8d56146388ab1f2ac9ff2efeb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e578a1527b8465ab1bf73ba8377afeb = $(`<div id="html_1e578a1527b8465ab1bf73ba8377afeb" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_c6d9c9b8d56146388ab1f2ac9ff2efeb.setContent(html_1e578a1527b8465ab1bf73ba8377afeb);
+        
+
+        marker_a217d41ba7db4a1881cb13002567660c.bindPopup(popup_c6d9c9b8d56146388ab1f2ac9ff2efeb)
+        ;
+
+        
+    
+    
+            marker_a217d41ba7db4a1881cb13002567660c.bindTooltip(
+                `<div>
+                     ОАО "Яргоргражданстрой"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8e77ef939c414e1e971c9a7603cd07ed = L.marker(
+                [53.6863763, 88.0703443],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_6c1c10df63574f6389d85c2366ede7fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8df630a6a934bd89481e467da8560ae = $(`<div id="html_a8df630a6a934bd89481e467da8560ae" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_6c1c10df63574f6389d85c2366ede7fa.setContent(html_a8df630a6a934bd89481e467da8560ae);
+        
+
+        marker_8e77ef939c414e1e971c9a7603cd07ed.bindPopup(popup_6c1c10df63574f6389d85c2366ede7fa)
+        ;
+
+        
+    
+    
+            marker_8e77ef939c414e1e971c9a7603cd07ed.bindTooltip(
+                `<div>
+                     ПАО "Хлебокомбинат им. В.Ф. Шукшина"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c8bb6a6afc2644a3b05f8f32f1474dda = L.marker(
+                [64.5901363, 40.5247363],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_e68ab32662ff4a1f9d852930b300cc58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d77106359ff432baf5c5907df5670ee = $(`<div id="html_8d77106359ff432baf5c5907df5670ee" style="width: 100.0%; height: 100.0%;">Вопрос не поднимался</div>`)[0];
+            popup_e68ab32662ff4a1f9d852930b300cc58.setContent(html_8d77106359ff432baf5c5907df5670ee);
+        
+
+        marker_c8bb6a6afc2644a3b05f8f32f1474dda.bindPopup(popup_e68ab32662ff4a1f9d852930b300cc58)
+        ;
+
+        
+    
+    
+            marker_c8bb6a6afc2644a3b05f8f32f1474dda.bindTooltip(
+                `<div>
+                     ЗАОр "НП "Арххлеб"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a04e9bf7137440fa95d0137a86fd3d1 = L.marker(
+                [56.44959405, 60.173770222799675],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_5597efb092ef47d8894cbe32c0d6aff1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b912692986c4a5288d2ab818a9a8e61 = $(`<div id="html_1b912692986c4a5288d2ab818a9a8e61" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_5597efb092ef47d8894cbe32c0d6aff1.setContent(html_1b912692986c4a5288d2ab818a9a8e61);
+        
+
+        marker_6a04e9bf7137440fa95d0137a86fd3d1.bindPopup(popup_5597efb092ef47d8894cbe32c0d6aff1)
+        ;
+
+        
+    
+    
+            marker_6a04e9bf7137440fa95d0137a86fd3d1.bindTooltip(
+                `<div>
+                     АО "ПМФЗ"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1c9b40dfc3f34c6f8cec75e7145da320 = L.marker(
+                [59.0389655, 57.7759125],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_bc0c72a507ab43ea8ae7e35cc44f3acf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16a3b7628bbf43998cb5a3b93d627967 = $(`<div id="html_16a3b7628bbf43998cb5a3b93d627967" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_bc0c72a507ab43ea8ae7e35cc44f3acf.setContent(html_16a3b7628bbf43998cb5a3b93d627967);
+        
+
+        marker_1c9b40dfc3f34c6f8cec75e7145da320.bindPopup(popup_bc0c72a507ab43ea8ae7e35cc44f3acf)
+        ;
+
+        
+    
+    
+            marker_1c9b40dfc3f34c6f8cec75e7145da320.bindTooltip(
+                `<div>
+                     ПАО "ПЕРМГРАЖДАНПРОЕКТ"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_74036a96379d4ea79b3f6645f0977a6e = L.marker(
+                [59.938732, 30.316229],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_fc0bb9fd01aa49fcaa34705eb18d62de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed18c6a8a0fb409e9688a60d66daada2 = $(`<div id="html_ed18c6a8a0fb409e9688a60d66daada2" style="width: 100.0%; height: 100.0%;">Принято решение выплатить дивиденды</div>`)[0];
+            popup_fc0bb9fd01aa49fcaa34705eb18d62de.setContent(html_ed18c6a8a0fb409e9688a60d66daada2);
+        
+
+        marker_74036a96379d4ea79b3f6645f0977a6e.bindPopup(popup_fc0bb9fd01aa49fcaa34705eb18d62de)
+        ;
+
+        
+    
+    
+            marker_74036a96379d4ea79b3f6645f0977a6e.bindTooltip(
+                `<div>
+                     АО «Эталон ЛенСпецСМУ»
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_09ea04be519d4a8d885e21fed9e49dea = L.marker(
+                [51.4881072, 57.3773626],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_42a54261525f49be91ecb96704fee475 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_375a6d1235f14433995e31b6321d058e = $(`<div id="html_375a6d1235f14433995e31b6321d058e" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_42a54261525f49be91ecb96704fee475.setContent(html_375a6d1235f14433995e31b6321d058e);
+        
+
+        marker_09ea04be519d4a8d885e21fed9e49dea.bindPopup(popup_42a54261525f49be91ecb96704fee475)
+        ;
+
+        
+    
+    
+            marker_09ea04be519d4a8d885e21fed9e49dea.bindTooltip(
+                `<div>
+                     ПАО "Кувандыкский завод КПО "Долина"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c2f77efc1534a818c122ecf24337919 = L.marker(
+                [69.406067, 86.175072],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_760e714136734244839f4131e13743a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d261490ab8e345898aa6a563c45a24cc = $(`<div id="html_d261490ab8e345898aa6a563c45a24cc" style="width: 100.0%; height: 100.0%;">Принято решение выплатить дивиденды</div>`)[0];
+            popup_760e714136734244839f4131e13743a0.setContent(html_d261490ab8e345898aa6a563c45a24cc);
+        
+
+        marker_6c2f77efc1534a818c122ecf24337919.bindPopup(popup_760e714136734244839f4131e13743a0)
+        ;
+
+        
+    
+    
+            marker_6c2f77efc1534a818c122ecf24337919.bindTooltip(
+                `<div>
+                     ПАО «ГМК «Норильский никель»
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_04844f32a7694531a261a4ef536138c9 = L.marker(
+                [54.8203944, 39.8946045],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_ccbe4cbd203a4d8599c85008be8bed30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e22eed3269394bec99d97f8285d657a5 = $(`<div id="html_e22eed3269394bec99d97f8285d657a5" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_ccbe4cbd203a4d8599c85008be8bed30.setContent(html_e22eed3269394bec99d97f8285d657a5);
+        
+
+        marker_04844f32a7694531a261a4ef536138c9.bindPopup(popup_ccbe4cbd203a4d8599c85008be8bed30)
+        ;
+
+        
+    
+    
+            marker_04844f32a7694531a261a4ef536138c9.bindTooltip(
+                `<div>
+                     АО "ЗАБОРЬЕ"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_acda103ba07040c9a024a383bc14d689 = L.marker(
+                [57.001863, 40.951171],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_9495b9bb90c94115bfa1eee28e105ecc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9b899376cfd43b59c2a6f57a4a1d9d7 = $(`<div id="html_a9b899376cfd43b59c2a6f57a4a1d9d7" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_9495b9bb90c94115bfa1eee28e105ecc.setContent(html_a9b899376cfd43b59c2a6f57a4a1d9d7);
+        
+
+        marker_acda103ba07040c9a024a383bc14d689.bindPopup(popup_9495b9bb90c94115bfa1eee28e105ecc)
+        ;
+
+        
+    
+    
+            marker_acda103ba07040c9a024a383bc14d689.bindTooltip(
+                `<div>
+                     ОАО "Ивановострой"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b70b597cb64044d6b93ec22bf3d7ef5f = L.marker(
+                [54.6702523, 39.68844236231995],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_5bd1a663c43243c2986b6000ef6ef4a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58c711635b0e414588891dc298d10731 = $(`<div id="html_58c711635b0e414588891dc298d10731" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_5bd1a663c43243c2986b6000ef6ef4a6.setContent(html_58c711635b0e414588891dc298d10731);
+        
+
+        marker_b70b597cb64044d6b93ec22bf3d7ef5f.bindPopup(popup_5bd1a663c43243c2986b6000ef6ef4a6)
+        ;
+
+        
+    
+    
+            marker_b70b597cb64044d6b93ec22bf3d7ef5f.bindTooltip(
+                `<div>
+                     ПАО "РЭСК"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0bcd159d27fa4b699af135623ac401c1 = L.marker(
+                [55.3238373, 38.6825062],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_7a20e67470e14b82af888130e8fd62c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d304ba212b4d472c87bcd34c64b297a7 = $(`<div id="html_d304ba212b4d472c87bcd34c64b297a7" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_7a20e67470e14b82af888130e8fd62c3.setContent(html_d304ba212b4d472c87bcd34c64b297a7);
+        
+
+        marker_0bcd159d27fa4b699af135623ac401c1.bindPopup(popup_7a20e67470e14b82af888130e8fd62c3)
+        ;
+
+        
+    
+    
+            marker_0bcd159d27fa4b699af135623ac401c1.bindTooltip(
+                `<div>
+                     ОАО "ВЭМЗ"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e06b802e9404376a1367bf6e7b46408 = L.marker(
+                [51.53952715, 46.03338615081432],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_f5febb90cc2847f6909afd5a32f76fc7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21f43b4e8586459cbd190c5cf969e7a9 = $(`<div id="html_21f43b4e8586459cbd190c5cf969e7a9" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_f5febb90cc2847f6909afd5a32f76fc7.setContent(html_21f43b4e8586459cbd190c5cf969e7a9);
+        
+
+        marker_1e06b802e9404376a1367bf6e7b46408.bindPopup(popup_f5febb90cc2847f6909afd5a32f76fc7)
+        ;
+
+        
+    
+    
+            marker_1e06b802e9404376a1367bf6e7b46408.bindTooltip(
+                `<div>
+                     ПАО «Саратовэнерго»
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_90a090d16fe44cd6a9354d66e3ed4a0e = L.marker(
+                [54.1893433, 37.6229323],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_c0c6a99d884d47e683e007b103511bee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e803833e70fc449f9ab384ed3698b319 = $(`<div id="html_e803833e70fc449f9ab384ed3698b319" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_c0c6a99d884d47e683e007b103511bee.setContent(html_e803833e70fc449f9ab384ed3698b319);
+        
+
+        marker_90a090d16fe44cd6a9354d66e3ed4a0e.bindPopup(popup_c0c6a99d884d47e683e007b103511bee)
+        ;
+
+        
+    
+    
+            marker_90a090d16fe44cd6a9354d66e3ed4a0e.bindTooltip(
+                `<div>
+                     ПАО “Императорский Тульский оружейный завод”
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_469e0526ce48404e9c6ecf74faeb4116 = L.marker(
+                [52.49612, 39.955162],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_b56592d1703d437092c09ef59c35c75e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ffb374739837403b8ba0a5e8f8ed6fc1 = $(`<div id="html_ffb374739837403b8ba0a5e8f8ed6fc1" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_b56592d1703d437092c09ef59c35c75e.setContent(html_ffb374739837403b8ba0a5e8f8ed6fc1);
+        
+
+        marker_469e0526ce48404e9c6ecf74faeb4116.bindPopup(popup_b56592d1703d437092c09ef59c35c75e)
+        ;
+
+        
+    
+    
+            marker_469e0526ce48404e9c6ecf74faeb4116.bindTooltip(
+                `<div>
+                     ПАО "Грязинский пищевой комбинат"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c7d0fcde49ef4547b4b622e81989f7a0 = L.marker(
+                [59.56379275, 150.7275929086836],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_06cf948848c84f2589e64f5eb18e08ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21fc9c250c6d4db19d596433be6c81f7 = $(`<div id="html_21fc9c250c6d4db19d596433be6c81f7" style="width: 100.0%; height: 100.0%;">Принято решение не выплачивать дивиденды</div>`)[0];
+            popup_06cf948848c84f2589e64f5eb18e08ed.setContent(html_21fc9c250c6d4db19d596433be6c81f7);
+        
+
+        marker_c7d0fcde49ef4547b4b622e81989f7a0.bindPopup(popup_06cf948848c84f2589e64f5eb18e08ed)
+        ;
+
+        
+    
+    
+            marker_c7d0fcde49ef4547b4b622e81989f7a0.bindTooltip(
+                `<div>
+                     ПАО "ММТП"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c604fa986294491cb73d1a6001c48db8 = L.marker(
+                [55.793349, 37.9021029],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_f01e45ebd81742329ebb1fd27903a0db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6698a7ee1bb6438f970faa96520bffea = $(`<div id="html_6698a7ee1bb6438f970faa96520bffea" style="width: 100.0%; height: 100.0%;">Принято решение выплатить дивиденды</div>`)[0];
+            popup_f01e45ebd81742329ebb1fd27903a0db.setContent(html_6698a7ee1bb6438f970faa96520bffea);
+        
+
+        marker_c604fa986294491cb73d1a6001c48db8.bindPopup(popup_f01e45ebd81742329ebb1fd27903a0db)
+        ;
+
+        
+    
+    
+            marker_c604fa986294491cb73d1a6001c48db8.bindTooltip(
+                `<div>
+                     ПАО АК "Рубин"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_72edbfe43665475e93c6999c9fa03e8c = L.marker(
+                [55.8032086, 37.6310845],
+                {}
+            ).addTo(marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1);
+        
+    
+        var popup_dd852b06be604dae90cd195ab1826fd3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94beb5d9946e4bc78a593ff31949a78b = $(`<div id="html_94beb5d9946e4bc78a593ff31949a78b" style="width: 100.0%; height: 100.0%;">Принято решение выплатить дивиденды</div>`)[0];
+            popup_dd852b06be604dae90cd195ab1826fd3.setContent(html_94beb5d9946e4bc78a593ff31949a78b);
+        
+
+        marker_72edbfe43665475e93c6999c9fa03e8c.bindPopup(popup_dd852b06be604dae90cd195ab1826fd3)
+        ;
+
+        
+    
+    
+            marker_72edbfe43665475e93c6999c9fa03e8c.bindTooltip(
+                `<div>
+                     ПАО "Калибр"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+
+        function geo_json_5df3f6ec7617492a8c92baec973245d7_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_5df3f6ec7617492a8c92baec973245d7 = L.geoJson(null, {
+                onEachFeature: geo_json_5df3f6ec7617492a8c92baec973245d7_onEachFeature,
+            
+        });
+
+        function geo_json_5df3f6ec7617492a8c92baec973245d7_add (data) {
+            geo_json_5df3f6ec7617492a8c92baec973245d7
+                .addData(data)
+                .addTo(map_6626f787438342729c155bf7633b3300);
+        }
+            geo_json_5df3f6ec7617492a8c92baec973245d7_add({"geometry": {"coordinates": [[[[143.648007, 50.7476], [144.654148, 48.976391], [143.173928, 49.306551], [142.558668, 47.861575], [143.533492, 46.836728], [143.505277, 46.137908], [142.747701, 46.740765], [142.09203, 45.966755], [141.906925, 46.805929], [142.018443, 47.780133], [141.904445, 48.859189], [142.1358, 49.615163], [142.179983, 50.952342], [141.594076, 51.935435], [141.682546, 53.301966], [142.606934, 53.762145], [142.209749, 54.225476], [142.654786, 54.365881], [142.914616, 53.704578], [143.260848, 52.74076], [143.235268, 51.75666], [143.648007, 50.7476]]], [[[22.731099, 54.327537], [20.892245, 54.312525], [19.66064, 54.426084], [19.888481, 54.86616], [21.268449, 55.190482], [22.315724, 55.015299], [22.757764, 54.856574], [22.651052, 54.582741], [22.731099, 54.327537]]], [[[-175.01425, 66.58435], [-174.33983, 66.33556], [-174.57182, 67.06219], [-171.85731, 66.91308], [-169.89958, 65.97724], [-170.89107, 65.54139], [-172.53025, 65.43791], [-172.555, 64.46079], [-172.95533, 64.25269], [-173.89184, 64.2826], [-174.65392, 64.63125], [-175.98353, 64.92288], [-176.20716, 65.35667], [-177.22266, 65.52024], [-178.35993, 65.39052], [-178.90332, 65.74044], [-178.68611, 66.11211], [-179.88377, 65.87456], [-179.43268, 65.40411], [-180, 64.979709], [-180, 68.963636], [-177.55, 68.2], [-174.92825, 67.20589], [-175.01425, 66.58435]]], [[[180, 70.832199], [178.903425, 70.78114], [178.7253, 71.0988], [180, 71.515714], [180, 70.832199]]], [[[-178.69378, 70.89302], [-180, 70.832199], [-180, 71.515714], [-179.871875, 71.55762], [-179.02433, 71.55553], [-177.577945, 71.26948], [-177.663575, 71.13277], [-178.69378, 70.89302]]], [[[143.60385, 73.21244], [142.08763, 73.20544], [140.038155, 73.31692], [139.86312, 73.36983], [140.81171, 73.76506], [142.06207, 73.85758], [143.48283, 73.47525], [143.60385, 73.21244]]], [[[150.73167, 75.08406], [149.575925, 74.68892], [147.977465, 74.778355], [146.11919, 75.17298], [146.358485, 75.49682], [148.22223, 75.345845], [150.73167, 75.08406]]], [[[145.086285, 75.562625], [144.3, 74.82], [140.61381, 74.84768], [138.95544, 74.61148], [136.97439, 75.26167], [137.51176, 75.94917], [138.831075, 76.13676], [141.471615, 76.09289], [145.086285, 75.562625]]], [[[57.535693, 70.720464], [56.944979, 70.632743], [53.677375, 70.762658], [53.412017, 71.206662], [51.601895, 71.474759], [51.455754, 72.014881], [52.478275, 72.229442], [52.444169, 72.774731], [54.427614, 73.627548], [53.50829, 73.749814], [55.902459, 74.627486], [55.631933, 75.081412], [57.868644, 75.60939], [61.170044, 76.251883], [64.498368, 76.439055], [66.210977, 76.809782], [68.15706, 76.939697], [68.852211, 76.544811], [68.180573, 76.233642], [64.637326, 75.737755], [61.583508, 75.260885], [58.477082, 74.309056], [56.986786, 73.333044], [55.419336, 72.371268], [55.622838, 71.540595], [57.535693, 70.720464]]], [[[106.97013, 76.97419], [107.24, 76.48], [108.1538, 76.72335], [111.07726, 76.71], [113.33151, 76.22224], [114.13417, 75.84764], [113.88539, 75.32779], [112.77918, 75.03186], [110.15125, 74.47673], [109.4, 74.18], [110.64, 74.04], [112.11919, 73.78774], [113.01954, 73.97693], [113.52958, 73.33505], [113.96881, 73.59488], [115.56782, 73.75285], [118.77633, 73.58772], [119.02, 73.12], [123.20066, 72.97122], [123.25777, 73.73503], [125.38, 73.56], [126.97644, 73.56549], [128.59126, 73.03871], [129.05157, 72.39872], [128.46, 71.98], [129.71599, 71.19304], [131.28858, 70.78699], [132.2535, 71.8363], [133.85766, 71.38642], [135.56193, 71.65525], [137.49755, 71.34763], [138.23409, 71.62803], [139.86983, 71.48783], [139.14791, 72.41619], [140.46817, 72.84941], [149.5, 72.2], [150.35118, 71.60643], [152.9689, 70.84222], [157.00688, 71.03141], [158.99779, 70.86672], [159.83031, 70.45324], [159.70866, 69.72198], [160.94053, 69.43728], [162.27907, 69.64204], [164.05248, 69.66823], [165.94037, 69.47199], [167.83567, 69.58269], [169.57763, 68.6938], [170.81688, 69.01363], [170.0082, 69.65276], [170.45345, 70.09703], [173.64391, 69.81743], [175.72403, 69.87725], [178.6, 69.4], [180, 68.963636], [180, 64.979709], [179.99281, 64.97433], [178.7072, 64.53493], [177.41128, 64.60821], [178.313, 64.07593], [178.90825, 63.25197], [179.37034, 62.98262], [179.48636, 62.56894], [179.22825, 62.3041], [177.3643, 62.5219], [174.56929, 61.76915], [173.68013, 61.65261], [172.15, 60.95], [170.6985, 60.33618], [170.33085, 59.88177], [168.90046, 60.57355], [166.29498, 59.78855], [165.84, 60.16], [164.87674, 59.7316], [163.53929, 59.86871], [163.21711, 59.21101], [162.01733, 58.24328], [162.05297, 57.83912], [163.19191, 57.61503], [163.05794, 56.15924], [162.12958, 56.12219], [161.70146, 55.28568], [162.11749, 54.85514], [160.36877, 54.34433], [160.02173, 53.20257], [158.53094, 52.95868], [158.23118, 51.94269], [156.78979, 51.01105], [156.42, 51.7], [155.99182, 53.15895], [155.43366, 55.38103], [155.91442, 56.76792], [156.75815, 57.3647], [156.81035, 57.83204], [158.36433, 58.05575], [160.15064, 59.31477], [161.87204, 60.343], [163.66969, 61.1409], [164.47355, 62.55061], [163.25842, 62.46627], [162.65791, 61.6425], [160.12148, 60.54423], [159.30232, 61.77396], [156.72068, 61.43442], [154.21806, 59.75818], [155.04375, 59.14495], [152.81185, 58.88385], [151.26573, 58.78089], [151.33815, 59.50396], [149.78371, 59.65573], [148.54481, 59.16448], [145.48722, 59.33637], [142.19782, 59.03998], [138.95848, 57.08805], [135.12619, 54.72959], [136.70171, 54.60355], [137.19342, 53.97732], [138.1647, 53.75501], [138.80463, 54.25455], [139.90151, 54.18968], [141.34531, 53.08957], [141.37923, 52.23877], [140.59742, 51.23967], [140.51308, 50.04553], [140.06193, 48.44671], [138.55472, 46.99965], [138.21971, 46.30795], [136.86232, 45.1435], [135.51535, 43.989], [134.86939, 43.39821], [133.53687, 42.81147], [132.90627, 42.79849], [132.27807, 43.28456], [130.93587, 42.55274], [130.78, 42.22], [130.64, 42.395], [130.633866, 42.903015], [131.144688, 42.92999], [131.288555, 44.11152], [131.02519, 44.96796], [131.883454, 45.321162], [133.09712, 45.14409], [133.769644, 46.116927], [134.11235, 47.21248], [134.50081, 47.57845], [135.026311, 48.47823], [133.373596, 48.183442], [132.50669, 47.78896], [130.98726, 47.79013], [130.582293, 48.729687], [129.397818, 49.4406], [127.6574, 49.76027], [127.287456, 50.739797], [126.939157, 51.353894], [126.564399, 51.784255], [125.946349, 52.792799], [125.068211, 53.161045], [123.57147, 53.4588], [122.245748, 53.431726], [121.003085, 53.251401], [120.177089, 52.753886], [120.725789, 52.516226], [120.7382, 51.96411], [120.18208, 51.64355], [119.27939, 50.58292], [119.288461, 50.142883], [117.879244, 49.510983], [116.678801, 49.888531], [115.485695, 49.805177], [114.96211, 50.140247], [114.362456, 50.248303], [112.89774, 49.543565], [111.581231, 49.377968], [110.662011, 49.130128], [109.402449, 49.292961], [108.475167, 49.282548], [107.868176, 49.793705], [106.888804, 50.274296], [105.886591, 50.406019], [104.62158, 50.27532], [103.676545, 50.089966], [102.25589, 50.51056], [102.06521, 51.25991], [100.88948, 51.516856], [99.981732, 51.634006], [98.861491, 52.047366], [97.82574, 51.010995], [98.231762, 50.422401], [97.25976, 49.72605], [95.81402, 49.97746], [94.815949, 50.013433], [94.147566, 50.480537], [93.10421, 50.49529], [92.234712, 50.802171], [90.713667, 50.331812], [88.805567, 49.470521], [87.751264, 49.297198], [87.35997, 49.214981], [86.829357, 49.826675], [85.54127, 49.692859], [85.11556, 50.117303], [84.416377, 50.3114], [83.935115, 50.889246], [83.383004, 51.069183], [81.945986, 50.812196], [80.568447, 51.388336], [80.03556, 50.864751], [77.800916, 53.404415], [76.525179, 54.177003], [76.8911, 54.490524], [74.38482, 53.54685], [73.425679, 53.48981], [73.508516, 54.035617], [72.22415, 54.376655], [71.180131, 54.133285], [70.865267, 55.169734], [69.068167, 55.38525], [68.1691, 54.970392], [65.66687, 54.60125], [65.178534, 54.354228], [61.4366, 54.00625], [60.978066, 53.664993], [61.699986, 52.979996], [60.739993, 52.719986], [60.927269, 52.447548], [59.967534, 51.96042], [61.588003, 51.272659], [61.337424, 50.79907], [59.932807, 50.842194], [59.642282, 50.545442], [58.36332, 51.06364], [56.77798, 51.04355], [55.71694, 50.62171], [54.532878, 51.02624], [52.328724, 51.718652], [50.766648, 51.692762], [48.702382, 50.605128], [48.577841, 49.87476], [47.54948, 50.454698], [46.751596, 49.356006], [47.043672, 49.152039], [46.466446, 48.394152], [47.31524, 47.71585], [48.05725, 47.74377], [48.694734, 47.075628], [48.59325, 46.56104], [49.10116, 46.39933], [48.64541, 45.80629], [47.67591, 45.64149], [46.68201, 44.6092], [47.59094, 43.66016], [47.49252, 42.98658], [48.58437, 41.80888], [47.987283, 41.405819], [47.815666, 41.151416], [47.373315, 41.219732], [46.686071, 41.827137], [46.404951, 41.860675], [45.7764, 42.09244], [45.470279, 42.502781], [44.537623, 42.711993], [43.93121, 42.55496], [43.75599, 42.74083], [42.3944, 43.2203], [40.92219, 43.38215], [40.076965, 43.553104], [39.955009, 43.434998], [38.68, 44.28], [37.53912, 44.65721], [36.67546, 45.24469], [37.40317, 45.40451], [38.23295, 46.24087], [37.67372, 46.63657], [39.14767, 47.04475], [39.1212, 47.26336], [38.223538, 47.10219], [38.255112, 47.5464], [38.77057, 47.82562], [39.738278, 47.898937], [39.89562, 48.23241], [39.67465, 48.78382], [40.080789, 49.30743], [40.06904, 49.60105], [38.594988, 49.926462], [38.010631, 49.915662], [37.39346, 50.383953], [36.626168, 50.225591], [35.356116, 50.577197], [35.37791, 50.77394], [35.022183, 51.207572], [34.224816, 51.255993], [34.141978, 51.566413], [34.391731, 51.768882], [33.7527, 52.335075], [32.715761, 52.238465], [32.412058, 52.288695], [32.15944, 52.06125], [31.78597, 52.10168], [31.540018, 52.742052], [31.305201, 53.073996], [31.49764, 53.16743], [32.304519, 53.132726], [32.693643, 53.351421], [32.405599, 53.618045], [31.731273, 53.794029], [31.791424, 53.974639], [31.384472, 54.157056], [30.757534, 54.811771], [30.971836, 55.081548], [30.873909, 55.550976], [29.896294, 55.789463], [29.371572, 55.670091], [29.229513, 55.918344], [28.176709, 56.16913], [27.855282, 56.759326], [27.770016, 57.244258], [27.288185, 57.474528], [27.716686, 57.791899], [27.42015, 58.72457], [28.131699, 59.300825], [27.98112, 59.47537], [29.1177, 60.02805], [28.07, 60.50352], [30.211107, 61.780028], [31.139991, 62.357693], [31.516092, 62.867687], [30.035872, 63.552814], [30.444685, 64.204453], [29.54443, 64.948672], [30.21765, 65.80598], [29.054589, 66.944286], [29.977426, 67.698297], [28.445944, 68.364613], [28.59193, 69.064777], [29.39955, 69.15692], [31.10108, 69.55811], [32.13272, 69.90595], [33.77547, 69.30142], [36.51396, 69.06342], [40.29234, 67.9324], [41.05987, 67.45713], [41.12595, 66.79158], [40.01583, 66.26618], [38.38295, 65.99953], [33.91871, 66.75961], [33.18444, 66.63253], [34.81477, 65.90015], [34.878574, 65.436213], [34.94391, 64.41437], [36.23129, 64.10945], [37.01273, 63.84983], [37.14197, 64.33471], [36.539579, 64.76446], [37.17604, 65.14322], [39.59345, 64.52079], [40.4356, 64.76446], [39.7626, 65.49682], [42.09309, 66.47623], [43.01604, 66.41858], [43.94975, 66.06908], [44.53226, 66.75634], [43.69839, 67.35245], [44.18795, 67.95051], [43.45282, 68.57079], [46.25, 68.25], [46.82134, 67.68997], [45.55517, 67.56652], [45.56202, 67.01005], [46.34915, 66.66767], [47.89416, 66.88455], [48.13876, 67.52238], [50.22766, 67.99867], [53.71743, 68.85738], [54.47171, 68.80815], [53.48582, 68.20131], [54.72628, 68.09702], [55.44268, 68.43866], [57.31702, 68.46628], [58.802, 68.88082], [59.94142, 68.27844], [61.07784, 68.94069], [60.03, 69.52], [60.55, 69.85], [63.504, 69.54739], [64.888115, 69.234835], [68.51216, 68.09233], [69.18068, 68.61563], [68.16444, 69.14436], [68.13522, 69.35649], [66.93008, 69.45461], [67.25976, 69.92873], [66.72492, 70.70889], [66.69466, 71.02897], [68.54006, 71.9345], [69.19636, 72.84336], [69.94, 73.04], [72.58754, 72.77629], [72.79603, 72.22006], [71.84811, 71.40898], [72.47011, 71.09019], [72.79188, 70.39114], [72.5647, 69.02085], [73.66787, 68.4079], [73.2387, 67.7404], [71.28, 66.32], [72.42301, 66.17267], [72.82077, 66.53267], [73.92099, 66.78946], [74.18651, 67.28429], [75.052, 67.76047], [74.46926, 68.32899], [74.93584, 68.98918], [73.84236, 69.07146], [73.60187, 69.62763], [74.3998, 70.63175], [73.1011, 71.44717], [74.89082, 72.12119], [74.65926, 72.83227], [75.15801, 72.85497], [75.68351, 72.30056], [75.28898, 71.33556], [76.35911, 71.15287], [75.90313, 71.87401], [77.57665, 72.26717], [79.65202, 72.32011], [81.5, 71.75], [80.61071, 72.58285], [80.51109, 73.6482], [82.25, 73.85], [84.65526, 73.80591], [86.8223, 73.93688], [86.00956, 74.45967], [87.16682, 75.11643], [88.31571, 75.14393], [90.26, 75.64], [92.90058, 75.77333], [93.23421, 76.0472], [95.86, 76.14], [96.67821, 75.91548], [98.92254, 76.44689], [100.75967, 76.43028], [101.03532, 76.86189], [101.99084, 77.28754], [104.3516, 77.69792], [106.06664, 77.37389], [104.705, 77.1274], [106.97013, 76.97419]]], [[[105.07547, 78.30689], [99.43814, 77.921], [101.2649, 79.23399], [102.08635, 79.34641], [102.837815, 79.28129], [105.37243, 78.71334], [105.07547, 78.30689]]], [[[51.136187, 80.54728], [49.793685, 80.415428], [48.894411, 80.339567], [48.754937, 80.175468], [47.586119, 80.010181], [46.502826, 80.247247], [47.072455, 80.559424], [44.846958, 80.58981], [46.799139, 80.771918], [48.318477, 80.78401], [48.522806, 80.514569], [49.09719, 80.753986], [50.039768, 80.918885], [51.522933, 80.699726], [51.136187, 80.54728]]], [[[99.93976, 78.88094], [97.75794, 78.7562], [94.97259, 79.044745], [93.31288, 79.4265], [92.5454, 80.14379], [91.18107, 80.34146], [93.77766, 81.0246], [95.940895, 81.2504], [97.88385, 80.746975], [100.186655, 79.780135], [99.93976, 78.88094]]]], "type": "MultiPolygon"}, "id": "RUS", "properties": {"name": "Russia"}, "type": "Feature"});
+
+        
+    
+            var layer_control_8a31211152b94db589f586c5a8aaa4e2 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_874293b6972b46f996d22a0bca8ea2b7,
+                },
+                overlays :  {
+                    "macro_element_7a9079fa2ce5471aa01c5daae3417ab1" : marker_cluster_7a9079fa2ce5471aa01c5daae3417ab1,
+                    "germany" : geo_json_5df3f6ec7617492a8c92baec973245d7,
+                },
+            };
+            L.control.layers(
+                layer_control_8a31211152b94db589f586c5a8aaa4e2.base_layers,
+                layer_control_8a31211152b94db589f586c5a8aaa4e2.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_6626f787438342729c155bf7633b3300);
+        
+</script>
