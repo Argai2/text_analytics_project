@@ -2,5 +2,5 @@
 
 Тема: Автоматизация работы с документами: извлечение сущностей и фактов из сообщений о раскрытии
 
-Интерактивная карта, где можно посмотреть на компании и решения по дивидендам доступна по ссылке:https://rawcdn.githack.com/Argai2/text_analytics_project/825c2af75ef2b816af05e9cda693e14bee7e4687/maps/map_div.html
+Интерактивная карта, где можно посмотреть на компании и решения по дивидендам доступна по ссылке: https://rawcdn.githack.com/Argai2/text_analytics_project/d853bdf80153dbc8f856d0370c584f1065d3dd6a/maps/map_div.html
 
